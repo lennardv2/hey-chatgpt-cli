@@ -1,0 +1,380 @@
+[
+    {
+        "label": "os",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "os",
+        "description": "os",
+        "detail": "os",
+        "documentation": {}
+    },
+    {
+        "label": "platform",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "platform",
+        "description": "platform",
+        "detail": "platform",
+        "documentation": {}
+    },
+    {
+        "label": "openai",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "openai",
+        "description": "openai",
+        "detail": "openai",
+        "documentation": {}
+    },
+    {
+        "label": "sys",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "sys",
+        "description": "sys",
+        "detail": "sys",
+        "documentation": {}
+    },
+    {
+        "label": "subprocess",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "subprocess",
+        "description": "subprocess",
+        "detail": "subprocess",
+        "documentation": {}
+    },
+    {
+        "label": "distro",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "distro",
+        "description": "distro",
+        "detail": "distro",
+        "documentation": {}
+    },
+    {
+        "label": "re",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "re",
+        "description": "re",
+        "detail": "re",
+        "documentation": {}
+    },
+    {
+        "label": "yaml",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "yaml",
+        "description": "yaml",
+        "detail": "yaml",
+        "documentation": {}
+    },
+    {
+        "label": "colored",
+        "importPath": "termcolor",
+        "description": "termcolor",
+        "isExtraImport": true,
+        "detail": "termcolor",
+        "documentation": {}
+    },
+    {
+        "label": "colored",
+        "importPath": "termcolor",
+        "description": "termcolor",
+        "isExtraImport": true,
+        "detail": "termcolor",
+        "documentation": {}
+    },
+    {
+        "label": "colored",
+        "importPath": "termcolor",
+        "description": "termcolor",
+        "isExtraImport": true,
+        "detail": "termcolor",
+        "documentation": {}
+    },
+    {
+        "label": "colored",
+        "importPath": "termcolor",
+        "description": "termcolor",
+        "isExtraImport": true,
+        "detail": "termcolor",
+        "documentation": {}
+    },
+    {
+        "label": "init",
+        "importPath": "colorama",
+        "description": "colorama",
+        "isExtraImport": true,
+        "detail": "colorama",
+        "documentation": {}
+    },
+    {
+        "label": "init",
+        "importPath": "colorama",
+        "description": "colorama",
+        "isExtraImport": true,
+        "detail": "colorama",
+        "documentation": {}
+    },
+    {
+        "label": "init",
+        "importPath": "colorama",
+        "description": "colorama",
+        "isExtraImport": true,
+        "detail": "colorama",
+        "documentation": {}
+    },
+    {
+        "label": "init",
+        "importPath": "colorama",
+        "description": "colorama",
+        "isExtraImport": true,
+        "detail": "colorama",
+        "documentation": {}
+    },
+    {
+        "label": "setup",
+        "importPath": "setuptools",
+        "description": "setuptools",
+        "isExtraImport": true,
+        "detail": "setuptools",
+        "documentation": {}
+    },
+    {
+        "label": "get_os_friendly_name",
+        "kind": 2,
+        "importPath": "build.lib.hey.cli",
+        "description": "build.lib.hey.cli",
+        "peekOfCode": "def get_os_friendly_name():\n  # Get OS Name\n  os_name = platform.system()\n  if os_name == \"Linux\":\n      return \"Linux/\"+distro.name(pretty=True)\n  elif os_name == \"Windows\":\n      return os_name\n  elif os_name == \"Darwin\":\n     return \"Darwin/macOS\"\n# Construct the prompt",
+        "detail": "build.lib.hey.cli",
+        "documentation": {}
+    },
+    {
+        "label": "parse_prompt",
+        "kind": 2,
+        "importPath": "build.lib.hey.cli",
+        "description": "build.lib.hey.cli",
+        "peekOfCode": "def parse_prompt(prompt_file, data = {}):\n  ## Find the executing directory (e.g. in case an alias is set)\n  ## So we can find the prompt.txt file\n  yolo_path = os.path.abspath(__file__)\n  prompt_path = os.path.dirname(yolo_path)\n  shell = os.environ.get(\"SHELL\", \"powershell.exe\") \n  ## Load the prompt and prep it\n  prompt_file = os.path.join(prompt_path, prompt_file)\n  pre_prompt = open(prompt_file,\"r\").read()\n  pre_prompt = pre_prompt.replace(\"{shell}\", shell)",
+        "detail": "build.lib.hey.cli",
+        "documentation": {}
+    },
+    {
+        "label": "openai_classify",
+        "kind": 2,
+        "importPath": "build.lib.hey.cli",
+        "description": "build.lib.hey.cli",
+        "peekOfCode": "def openai_classify(prompt):\n    response = openai.ChatCompletion.create(\n        model=\"gpt-3.5-turbo\",\n        messages=[\n            {\"role\": \"system\", \"content\": \"You analyse the question and determine the best way to answer it.\"},\n            {\"role\": \"user\", \"content\": prompt}\n        ],\n        temperature=0,\n        max_tokens=1000,\n        stream=False",
+        "detail": "build.lib.hey.cli",
+        "documentation": {}
+    },
+    {
+        "label": "check_watch",
+        "kind": 2,
+        "importPath": "build.lib.hey.cli",
+        "description": "build.lib.hey.cli",
+        "peekOfCode": "def check_watch(delta_content, watch_for, watch_found, done, fail):\n    all_false = [False for i in range(len(watch_for))]\n    # Loop trough the watch_for list in reverse\n    for i in range(len(watch_for)-1, -1, -1):\n        checker = [True for x in range(i)] + [False for i in range(len(watch_for)-i)]\n        if watch_found == checker:\n            if delta_content.strip() == watch_for[i]:\n                if (i == len(watch_for)-1):\n                    done()\n                watch_found[i] = True",
+        "detail": "build.lib.hey.cli",
+        "documentation": {}
+    },
+    {
+        "label": "openai_chat",
+        "kind": 2,
+        "importPath": "build.lib.hey.cli",
+        "description": "build.lib.hey.cli",
+        "peekOfCode": "def openai_chat(message, assistant_message = None):\n    if assistant_message:\n        messages.append({\"role\": \"assistant\", \"content\": assistant_message})\n    messages.append({\"role\": \"user\", \"content\": message})\n    response = openai.ChatCompletion.create(\n        model=\"gpt-3.5-turbo\",\n        messages=messages,\n        temperature=0,\n        max_tokens=1000,\n        stream=True",
+        "detail": "build.lib.hey.cli",
+        "documentation": {}
+    },
+    {
+        "label": "get_question",
+        "kind": 2,
+        "importPath": "build.lib.hey.cli",
+        "description": "build.lib.hey.cli",
+        "peekOfCode": "def get_question():\n    # Parse arguments and make sure we have at least a single word\n    if len(sys.argv) < 2:\n        return None\n    arguments = sys.argv[1:]\n    return \" \".join(arguments)\ndef run_command(command):\n    print(command)\n    print()\n    print(\"[1] Run and exit (default)\")",
+        "detail": "build.lib.hey.cli",
+        "documentation": {}
+    },
+    {
+        "label": "run_command",
+        "kind": 2,
+        "importPath": "build.lib.hey.cli",
+        "description": "build.lib.hey.cli",
+        "peekOfCode": "def run_command(command):\n    print(command)\n    print()\n    print(\"[1] Run and exit (default)\")\n    print(\"[2] Run and continue\")\n    print(\"[3] Run and send to gpt\")\n    print(\"[4] Continue\")\n    print(\"[5] Exit\")\n    answer = input()\n    # Check if y/Y or enter",
+        "detail": "build.lib.hey.cli",
+        "documentation": {}
+    },
+    {
+        "label": "write_file",
+        "kind": 2,
+        "importPath": "build.lib.hey.cli",
+        "description": "build.lib.hey.cli",
+        "peekOfCode": "def write_file(file, contents):\n    print(file)\n    print()\n    print(\"[1] Save and exit (default)\")\n    print(\"[2] Save and continue\")\n    print(\"[3] Do not save and continue\")\n    print(\"[4] Exit\")\n    answer = input()\n    # check for home ~ and replace it with the actual home path\n    if file.startswith(\"~\"):",
+        "detail": "build.lib.hey.cli",
+        "documentation": {}
+    },
+    {
+        "label": "main",
+        "kind": 2,
+        "importPath": "build.lib.hey.cli",
+        "description": "build.lib.hey.cli",
+        "peekOfCode": "def main(query = None):\n    init()\n    home_path = os.path.expanduser(\"~\")    \n    openai.api_key_path = os.path.join(home_path,\".openai.apikey\")\n    user_input = get_question()\n    if (user_input == None):\n        print (\"Hi! how can i help you?\")\n        print()\n        print(\"You:\", end=' ')\n        user_input = input()",
+        "detail": "build.lib.hey.cli",
+        "documentation": {}
+    },
+    {
+        "label": "__author__",
+        "kind": 5,
+        "importPath": "build.lib.hey.cli",
+        "description": "build.lib.hey.cli",
+        "peekOfCode": "__author__ = \"Lennard Voogdt\"\n__version__ = \"1.0.0\"\nhome_path = os.path.expanduser(\"~\")  \ndef get_os_friendly_name():\n  # Get OS Name\n  os_name = platform.system()\n  if os_name == \"Linux\":\n      return \"Linux/\"+distro.name(pretty=True)\n  elif os_name == \"Windows\":\n      return os_name",
+        "detail": "build.lib.hey.cli",
+        "documentation": {}
+    },
+    {
+        "label": "__version__",
+        "kind": 5,
+        "importPath": "build.lib.hey.cli",
+        "description": "build.lib.hey.cli",
+        "peekOfCode": "__version__ = \"1.0.0\"\nhome_path = os.path.expanduser(\"~\")  \ndef get_os_friendly_name():\n  # Get OS Name\n  os_name = platform.system()\n  if os_name == \"Linux\":\n      return \"Linux/\"+distro.name(pretty=True)\n  elif os_name == \"Windows\":\n      return os_name\n  elif os_name == \"Darwin\":",
+        "detail": "build.lib.hey.cli",
+        "documentation": {}
+    },
+    {
+        "label": "home_path",
+        "kind": 5,
+        "importPath": "build.lib.hey.cli",
+        "description": "build.lib.hey.cli",
+        "peekOfCode": "home_path = os.path.expanduser(\"~\")  \ndef get_os_friendly_name():\n  # Get OS Name\n  os_name = platform.system()\n  if os_name == \"Linux\":\n      return \"Linux/\"+distro.name(pretty=True)\n  elif os_name == \"Windows\":\n      return os_name\n  elif os_name == \"Darwin\":\n     return \"Darwin/macOS\"",
+        "detail": "build.lib.hey.cli",
+        "documentation": {}
+    },
+    {
+        "label": "messages",
+        "kind": 5,
+        "importPath": "build.lib.hey.cli",
+        "description": "build.lib.hey.cli",
+        "peekOfCode": "messages = []\n## Make above function fynamic based on watch_for length\n## Import mute from above\ndef check_watch(delta_content, watch_for, watch_found, done, fail):\n    all_false = [False for i in range(len(watch_for))]\n    # Loop trough the watch_for list in reverse\n    for i in range(len(watch_for)-1, -1, -1):\n        checker = [True for x in range(i)] + [False for i in range(len(watch_for)-i)]\n        if watch_found == checker:\n            if delta_content.strip() == watch_for[i]:",
+        "detail": "build.lib.hey.cli",
+        "documentation": {}
+    },
+    {
+        "label": "get_os_friendly_name",
+        "kind": 2,
+        "importPath": "hey.cli",
+        "description": "hey.cli",
+        "peekOfCode": "def get_os_friendly_name():\n  # Get OS Name\n  os_name = platform.system()\n  if os_name == \"Linux\":\n      return \"Linux/\"+distro.name(pretty=True)\n  elif os_name == \"Windows\":\n      return os_name\n  elif os_name == \"Darwin\":\n     return \"Darwin/macOS\"\n# Construct the prompt",
+        "detail": "hey.cli",
+        "documentation": {}
+    },
+    {
+        "label": "parse_prompt",
+        "kind": 2,
+        "importPath": "hey.cli",
+        "description": "hey.cli",
+        "peekOfCode": "def parse_prompt(prompt_file, data = {}):\n  ## Find the executing directory (e.g. in case an alias is set)\n  ## So we can find the prompt.txt file\n  yolo_path = os.path.abspath(__file__)\n  prompt_path = os.path.dirname(yolo_path)\n  shell = os.environ.get(\"SHELL\", \"powershell.exe\") \n  ## Load the prompt and prep it\n  prompt_file = os.path.join(prompt_path, prompt_file)\n  pre_prompt = open(prompt_file,\"r\").read()\n  pre_prompt = pre_prompt.replace(\"{shell}\", shell)",
+        "detail": "hey.cli",
+        "documentation": {}
+    },
+    {
+        "label": "openai_classify",
+        "kind": 2,
+        "importPath": "hey.cli",
+        "description": "hey.cli",
+        "peekOfCode": "def openai_classify(prompt):\n    response = openai.ChatCompletion.create(\n        model=\"gpt-3.5-turbo\",\n        messages=[\n            {\"role\": \"system\", \"content\": \"You analyse the question and determine the best way to answer it.\"},\n            {\"role\": \"user\", \"content\": prompt}\n        ],\n        temperature=0,\n        max_tokens=1000,\n        stream=False",
+        "detail": "hey.cli",
+        "documentation": {}
+    },
+    {
+        "label": "check_watch",
+        "kind": 2,
+        "importPath": "hey.cli",
+        "description": "hey.cli",
+        "peekOfCode": "def check_watch(delta_content, watch_for, watch_found, done, fail):\n    all_false = [False for i in range(len(watch_for))]\n    # Loop trough the watch_for list in reverse\n    for i in range(len(watch_for)-1, -1, -1):\n        checker = [True for x in range(i)] + [False for i in range(len(watch_for)-i)]\n        if watch_found == checker:\n            if delta_content.strip() == watch_for[i]:\n                if (i == len(watch_for)-1):\n                    done()\n                watch_found[i] = True",
+        "detail": "hey.cli",
+        "documentation": {}
+    },
+    {
+        "label": "openai_chat",
+        "kind": 2,
+        "importPath": "hey.cli",
+        "description": "hey.cli",
+        "peekOfCode": "def openai_chat(message, assistant_message = None):\n    if assistant_message:\n        messages.append({\"role\": \"assistant\", \"content\": assistant_message})\n    messages.append({\"role\": \"user\", \"content\": message})\n    response = openai.ChatCompletion.create(\n        model=\"gpt-3.5-turbo\",\n        messages=messages,\n        temperature=0,\n        max_tokens=1000,\n        stream=True",
+        "detail": "hey.cli",
+        "documentation": {}
+    },
+    {
+        "label": "get_question",
+        "kind": 2,
+        "importPath": "hey.cli",
+        "description": "hey.cli",
+        "peekOfCode": "def get_question():\n    # Parse arguments and make sure we have at least a single word\n    if len(sys.argv) < 2:\n        return None\n    arguments = sys.argv[1:]\n    return \" \".join(arguments)\ndef run_command(command):\n    print(command)\n    print()\n    print(\"[1] Run and exit (default)\")",
+        "detail": "hey.cli",
+        "documentation": {}
+    },
+    {
+        "label": "run_command",
+        "kind": 2,
+        "importPath": "hey.cli",
+        "description": "hey.cli",
+        "peekOfCode": "def run_command(command):\n    print(command)\n    print()\n    print(\"[1] Run and exit (default)\")\n    print(\"[2] Run and continue\")\n    print(\"[3] Run and send to gpt\")\n    print(\"[4] Continue\")\n    print(\"[5] Exit\")\n    answer = input()\n    # Check if y/Y or enter",
+        "detail": "hey.cli",
+        "documentation": {}
+    },
+    {
+        "label": "write_file",
+        "kind": 2,
+        "importPath": "hey.cli",
+        "description": "hey.cli",
+        "peekOfCode": "def write_file(file, contents):\n    print(file)\n    print()\n    print(\"[1] Save and exit (default)\")\n    print(\"[2] Save and continue\")\n    print(\"[3] Do not save and continue\")\n    print(\"[4] Exit\")\n    answer = input()\n    # check for home ~ and replace it with the actual home path\n    if file.startswith(\"~\"):",
+        "detail": "hey.cli",
+        "documentation": {}
+    },
+    {
+        "label": "main",
+        "kind": 2,
+        "importPath": "hey.cli",
+        "description": "hey.cli",
+        "peekOfCode": "def main(query = None):\n    init()\n    home_path = os.path.expanduser(\"~\")    \n    openai.api_key_path = os.path.join(home_path,\".openai.apikey\")\n    user_input = get_question()\n    if (user_input == None):\n        print (\"Hi! how can i help you?\")\n        print()\n        print(\"You:\", end=' ')\n        user_input = input()",
+        "detail": "hey.cli",
+        "documentation": {}
+    },
+    {
+        "label": "__author__",
+        "kind": 5,
+        "importPath": "hey.cli",
+        "description": "hey.cli",
+        "peekOfCode": "__author__ = \"Lennard Voogdt\"\n__version__ = \"1.0.0\"\nhome_path = os.path.expanduser(\"~\")  \ndef get_os_friendly_name():\n  # Get OS Name\n  os_name = platform.system()\n  if os_name == \"Linux\":\n      return \"Linux/\"+distro.name(pretty=True)\n  elif os_name == \"Windows\":\n      return os_name",
+        "detail": "hey.cli",
+        "documentation": {}
+    },
+    {
+        "label": "__version__",
+        "kind": 5,
+        "importPath": "hey.cli",
+        "description": "hey.cli",
+        "peekOfCode": "__version__ = \"1.0.0\"\nhome_path = os.path.expanduser(\"~\")  \ndef get_os_friendly_name():\n  # Get OS Name\n  os_name = platform.system()\n  if os_name == \"Linux\":\n      return \"Linux/\"+distro.name(pretty=True)\n  elif os_name == \"Windows\":\n      return os_name\n  elif os_name == \"Darwin\":",
+        "detail": "hey.cli",
+        "documentation": {}
+    },
+    {
+        "label": "home_path",
+        "kind": 5,
+        "importPath": "hey.cli",
+        "description": "hey.cli",
+        "peekOfCode": "home_path = os.path.expanduser(\"~\")  \ndef get_os_friendly_name():\n  # Get OS Name\n  os_name = platform.system()\n  if os_name == \"Linux\":\n      return \"Linux/\"+distro.name(pretty=True)\n  elif os_name == \"Windows\":\n      return os_name\n  elif os_name == \"Darwin\":\n     return \"Darwin/macOS\"",
+        "detail": "hey.cli",
+        "documentation": {}
+    },
+    {
+        "label": "messages",
+        "kind": 5,
+        "importPath": "hey.cli",
+        "description": "hey.cli",
+        "peekOfCode": "messages = []\n## Make above function fynamic based on watch_for length\n## Import mute from above\ndef check_watch(delta_content, watch_for, watch_found, done, fail):\n    all_false = [False for i in range(len(watch_for))]\n    # Loop trough the watch_for list in reverse\n    for i in range(len(watch_for)-1, -1, -1):\n        checker = [True for x in range(i)] + [False for i in range(len(watch_for)-i)]\n        if watch_found == checker:\n            if delta_content.strip() == watch_for[i]:",
+        "detail": "hey.cli",
+        "documentation": {}
+    }
+]
