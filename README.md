@@ -17,7 +17,9 @@ Once Hey is installed, you can run it from anywhere on your system by typing `he
 ```
 hey
 ```
-To use Hey, simply type in your question or command and Hey will generate the appropriate shell command or file for you.
+To use Hey, simply type in your question or command and Hey will start a chat session and generate commands. It always asks to confirm before execution.
+
+(More will follow...)
 
 ## Requirements
 
