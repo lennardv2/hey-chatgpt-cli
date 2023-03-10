@@ -8,7 +8,7 @@ Pipx is a tool that allows you to install and run Python packages in isolated en
 To install Hey via pipx, you can use the following command:
 
 ```
-pipx install hey
+pipx install hey-gpt
 ```
 Once Hey is installed, you can run it from anywhere on your system by typing `hey` in your terminal.
 
