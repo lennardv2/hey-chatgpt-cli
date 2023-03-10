@@ -1,7 +1,7 @@
 from setuptools import setup
 
 setup(
-    name = "hey",
+    name = "hey-gpt",
     version = "1.0.0",
     author = "Lennard Voogdt",
     author_email = "lennard@spring.nl",

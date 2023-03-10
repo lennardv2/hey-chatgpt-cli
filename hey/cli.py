@@ -1,5 +1,4 @@
 #!/usr/bin/env python3
-# http://zetcode.com/python/click/
 
 import os
 import platform
