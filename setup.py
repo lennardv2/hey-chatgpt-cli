@@ -2,7 +2,7 @@ from setuptools import setup
 
 setup(
     name = "hey-gpt",
-    version = "1.0.0",
+    version = "1.1.0",
     author = "Lennard Voogdt",
     author_email = "lennard@spring.nl",
     description = ("Use OpenAI/ChatGPT gpt-3.5-turbo on the command-line"),
