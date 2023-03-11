@@ -1,4 +1,0 @@
-I ran the command and got the following output:
-{output}
-
-What do you see?

@@ -1,0 +1,4 @@
+I ran {command} and got the following output:
+{output}
+
+Can you tell me what this mean?

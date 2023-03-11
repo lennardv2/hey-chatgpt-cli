@@ -1,173 +1,70 @@
 #!/usr/bin/env python3
 
 import os
-import platform
-import openai
 import sys
-import subprocess
-import distro
-import re
-import yaml
 
 from termcolor import colored
 from colorama import init
 
-from termcolor import colored
-from colorama import init
+import aichat
+
+from prompt import parse_prompt
+from prompt_toolkit import PromptSession
+from prompt_toolkit.cursor_shapes import CursorShape
+from prompt_toolkit.key_binding import KeyBindings
+from prompt_toolkit.keys import Keys
+from prompt_toolkit.key_binding.bindings.named_commands import accept_line
+from prompt_toolkit.styles import Style
+from prompt_toolkit.history import FileHistory
+from prompt_toolkit.auto_suggest import AutoSuggestFromHistory
+
+from install import install
+from install import load_plugins
+
+prompt = None
+
+home_path = os.path.expanduser("~")  
+program_path = os.path.dirname(__file__)
+user_path = home_path + "/.hey"
+
+paths = {
+    "chat_history" : user_path + "/chat_history",
+    "commands_history" : user_path + "/commands_history",
+    "log_file" : user_path + "/gpt_log.txt"
+}
+
+def prompt_path(name):
+    # Check for the user_dir
+    # Check ~/.hey/prompt/name.txt
+    if os.path.exists(user_path + "/prompt/" + name + ".txt"):
+        return user_path + "/prompt/" + name + ".txt"
+
+    # Check ~/.hey/plugins/name/prompt.txt
+    if os.path.exists(user_path + "/plugins/" + name + "/prompt.txt"):
+        return user_path + "/plugins/" + name + "/prompt.txt"
+
+    # Check program_path/prompt/name.txt
+    if os.path.exists(program_path + "/prompt/" + name + ".txt"):
+        return program_path + "/prompt/" + name + ".txt"
+
+    # Check program_path/plugins/name/prompt.txt
+    if os.path.exists(program_path + "/plugins/" + name + "/prompt.txt"):
+        return program_path + "/plugins/" + name + "/prompt.txt"
+
+    return paths['prompt_path'] + name + ".txt"
+
+app_state = {
+    "log_mode": False,
+    "start_prompt": prompt_path("cli"),
+}
+
+session = PromptSession(history=FileHistory(paths["chat_history"]))
+cmd_session = PromptSession(history=FileHistory(paths["commands_history"]))
 
 __author__ = "Lennard Voogdt"
 __version__ = "1.0.0"
-home_path = os.path.expanduser("~")  
 
-def get_os_friendly_name():
-  
-  # Get OS Name
-  os_name = platform.system()
-  
-  if os_name == "Linux":
-      return "Linux/"+distro.name(pretty=True)
-  elif os_name == "Windows":
-      return os_name
-  elif os_name == "Darwin":
-     return "Darwin/macOS"
-
-# Construct the prompt
-def parse_prompt(prompt_file, data = {}):
-  ## Find the executing directory (e.g. in case an alias is set)
-  ## So we can find the prompt.txt file
-  yolo_path = os.path.abspath(__file__)
-  prompt_path = os.path.dirname(yolo_path)
-  shell = os.environ.get("SHELL", "powershell.exe") 
-
-  ## Load the prompt and prep it
-  prompt_file = os.path.join(prompt_path, prompt_file)
-  pre_prompt = open(prompt_file,"r").read()
-  pre_prompt = pre_prompt.replace("{shell}", shell)
-  for key in data:
-    pre_prompt = pre_prompt.replace("{"+key+"}", data[key])
-  pre_prompt = pre_prompt.replace("{os}", get_os_friendly_name())
-  prompt = pre_prompt
-  
-  return prompt
-
-def openai_classify(prompt):
-    response = openai.ChatCompletion.create(
-        model="gpt-3.5-turbo",
-        messages=[
-            {"role": "system", "content": "You analyse the question and determine the best way to answer it."},
-            {"role": "user", "content": prompt}
-        ],
-        temperature=0,
-        max_tokens=1000,
-        stream=False
-    )
-
-    # Parse the yaml
-    yaml_string = response["choices"][0]["message"]['content']
-
-    output = yaml.safe_load(yaml_string)
-
-    return output
-
-messages = []
-
-## Make above function fynamic based on watch_for length
-## Import mute from above
-def check_watch(delta_content, watch_for, watch_found, done, fail):
-    all_false = [False for i in range(len(watch_for))]
-
-    # Loop trough the watch_for list in reverse
-    for i in range(len(watch_for)-1, -1, -1):
-        checker = [True for x in range(i)] + [False for i in range(len(watch_for)-i)]
-
-        if watch_found == checker:
-            if delta_content.strip() == watch_for[i]:
-                if (i == len(watch_for)-1):
-                    done()
-                watch_found[i] = True
-                break
-            else:
-                if watch_found != all_false:
-                    fail()
-                    watch_found = all_false
-                break
-            
-
-
-def openai_chat(message, assistant_message = None):
-    if assistant_message:
-        messages.append({"role": "assistant", "content": assistant_message})
-
-    messages.append({"role": "user", "content": message})
-
-    response = openai.ChatCompletion.create(
-        model="gpt-3.5-turbo",
-        messages=messages,
-        temperature=0,
-        max_tokens=1000,
-        stream=True
-    )
-
-    buffer = ""
-
-    swallow_file=["[y", "aml", "]", "file"]
-    swallow_file_stream=[False, False, False, False]
-
-    swallow_cmd=["[y", "aml", "]", "command"]
-    swallow_cmd_stream=[False, False, False, False]
-
-    # Holds every line that is not outputed because of detection of above
-    swallowed=[]
-
-    global failed; failed = [False, False]
-
-    def on_file():
-        print (colored("Receiving file: ", "blue"),end='')
-
-    def on_command():
-        print (colored("Receiving command: ", "green"),end='')
-    
-    def on_fail():
-        global failed
-        if failed[0] and failed[1]:
-            # Spit it out it was false alarm
-            for i in swallowed:
-                print (i,end='')
-
-            failed = [False, False]
-
-    def on_file_fail():
-        global failed
-        failed[0] = True
-        on_fail()
-        # print (colored("Failed file", "red"),end='')
-
-    def on_command_fail():
-        global failed
-        failed[1] = True
-        on_fail()
-        # print (colored("Failed command", "red"),end='')
-    
-    for chunk in response:
-        # choices.delta.content
-        delta=chunk["choices"][0]["delta"]
-
-        if "content" in delta:
-            delta_content = delta["content"]
-        
-            check_watch(delta_content, swallow_file, swallow_file_stream, on_file, on_file_fail)
-            check_watch(delta_content, swallow_cmd, swallow_cmd_stream, on_command, on_command_fail)
-
-            if swallow_cmd_stream[0] == False and swallow_file_stream[0] == False:
-                print(delta_content,end='')
-            else:
-                swallowed.append(delta_content)
-
-            buffer += delta["content"]
-
-    return buffer
-
-def get_question():
+def get_initial_arguments():
     # Parse arguments and make sure we have at least a single word
     if len(sys.argv) < 2:
         return None
@@ -176,126 +73,251 @@ def get_question():
 
     return " ".join(arguments)
 
-def run_command(command):
-    print(command)
+def help():
+    print(colored("Hey version " + __version__, "green"))
+    print ("ChatGPT on the commandline")
     print()
-    print("[1] Run and exit (default)")
-    print("[2] Run and continue")
-    print("[3] Run and send to gpt")
-    print("[4] Continue")
-    print("[5] Exit")
 
-    answer = input()
-    # Check if y/Y or enter
-    if answer == "" or answer == "1":
-        print()
-        subprocess.run(command, shell=True)
-        exit()
+    # loop over commands with Keys
+    for key, value in commands.items():
+        print(colored(key, 'green'), end='')
+        print(" " * (20 - len(key)), end='')
+        print(value['description'])
 
-    elif answer == "2":
-        print()
-        subprocess.run(command, shell=True)
-        return None
+def exit():
+    print("Bye!")
+    sys.exit()
+
+def clear():
+    global prompt
+    prompt = None
+    aichat.clear()
+
+    print("ChatGPT history reset")
+
+def log_mode():
+    app_state["log_mode"] = not app_state["log_mode"]
+
+    if app_state["log_mode"] == True:
+        print("log_mode mode is now on")
+        print("Logfile is located at " + paths["log_file"])
+
+    else:
+        print("log_mode mode is now off")
+
+def log(text):
+    if text != None and app_state["log_mode"] == True:
+        # Append to the file and create of nopt exists
+        file = open(paths["log_file"], "a")
+
+        file.write(text)
+        file.close()
+
+def show_log():
+    if app_state["log_mode"] == True:
+        file = open(paths["log_file"], "r")
+        print(file.read())
+        file.close()
+
+# def set_mode(mode):
+
+def mode(mode):
+    if (mode == "cli"):
+        set_mode("cli", prompt_path("cli"))
+
+    elif (mode == "chat"):
+        set_mode("chat", prompt_path("chat"))
+
+def set_mode(mode, prompt_path):
+    clear()
+    app_state["start_prompt"] = prompt_path
+    print("You are now in " + mode + " mode.")
+
+def clear_history():
+    # Clear history
+    file = open(paths["chat_history"], "w")
+    file.close()
+
+    file = open(paths["commands_history"], "w")
+    file.close()
+
+    print("Hey history cleared on disk")
+
+def run_custom(command = ""):
+    from parse import parse_output
+    command = cmd_session.prompt("Command: ", default=command)
+
+    if command == "exit" or "":
+        return
+
+    output = """
+    [yaml:cmd]
+        command: """ + command + """
+    [/yaml:cmd]
+    """
+
+    return parse_output(output)
+    # Run the command
+
+def last_ran_command_from_history(index = -2):
+    import os
+
+    if os.name == 'posix':  # for Linux/Unix/MacOS
+        # Check if zsh is the default shell
+        if os.environ.get('SHELL') == '/bin/zsh':
+            history_file = os.path.expanduser("~/.zsh_history")
+        else:
+            history_file = os.path.expanduser("~/.bash_history")
+    elif os.name == 'nt':  # for Windows
+        history_file = os.path.expanduser('%userprofile%' + "/AppData/Roaming/Microsoft/Windows/PowerShell/PSReadline/ConsoleHost_history.txt")
+
+    with open(history_file, 'r') as f:
+        lines = f.readlines()
+
+    last_command = lines[index].strip()
+
+    if last_command.startswith("hey"):
+        return last_ran_command_from_history(index - 1)
+
+    if os.environ.get('SHELL') == '/bin/zsh':
+        last_command = last_command.split(";")[1]
     
-    elif answer == "3":
-        print()
-        output = subprocess.run(command, shell=True, capture_output=True)
-        print (output.stdout.decode("utf-8"))
-        return output.stdout.decode("utf-8")
+    return last_command
 
-    elif answer == "4":
-        return None
+commands = {
+    "help": {
+        "description": "Show this help",
+        "function": help
+    },
+    "reinstall": {
+        "description": "Reinstall the default prompts",
+        "function": lambda: install(True)
+    },
+    "log": {
+        "description": "Toggle log_mode mode",
+        "function": log_mode
+    },
+    "run": {
+        "description": "Run a system command and send the response to ChatGPT",
+        "function": run_custom
+    },
+    "clear": {
+        "description": "Reset the chat, clear the tokens",
+        "function": clear
+    },
+    "clear history": {
+        "description": "Reset the hey command-line history",
+        "function": clear_history
+    },
+}
 
-    elif answer == "5":
-        exit()
 
-def write_file(file, contents):
-    print(file)
+
+def you_input():
+    style = Style.from_dict({'': '#59acfb','you': '#59acfb',})
+    msg = [('class:you', 'You: ')]
     print()
-    print("[1] Save and exit (default)")
-    print("[2] Save and continue")
-    print("[3] Do not save and continue")
-    print("[4] Exit")
 
-    answer = input()
+    def get_rprompt():
+        text = session.default_buffer.text
+        return 'Tokens: ' + str(aichat.get_tokens(text)) + "/" + str(aichat.max_tokens())
 
+    user_input = session.prompt(msg, rprompt=get_rprompt, style=style, cursor=CursorShape.BEAM, auto_suggest=AutoSuggestFromHistory())
 
-    # check for home ~ and replace it with the actual home path
-    if file.startswith("~"):
-        file = file.replace("~", home_path)
+    return user_input
 
-    if answer == "" or answer == "1":
-        # Save and create if not exists
-        with open(file, "w+") as f:
-            f.write(contents)
-
-        exit()
-
-    elif answer == "2":
-        # Save and create if not exists
-        with open(file, "w+") as f:
-            f.write(contents)
-
-        return None
-
-    elif answer == "3":
-        return None
-
-    elif answer == "4":
-        exit()
-
-def main(query = None):
-
+def main():
+    from parse import parse_output
+    global prompt
     init()
 
-    home_path = os.path.expanduser("~")    
-    openai.api_key_path = os.path.join(home_path,".openai.apikey")
+    aichat.find_openai_key()
 
-    user_input = get_question()
+    user_input = get_initial_arguments()
 
     if (user_input == None):
-        print ("Hi! how can i help you?")
-        print()
-        print("You:", end=' ')
-        user_input = input()
-        print()
-
-    # print("Question: " + user_input)
+        print("Hi! How can I help you?")
+        user_input = you_input()
 
     chat_output = None
-    prompt = None
 
     while(user_input != "exit" and user_input != "bye" and user_input != "quit"):
+        # Trim user_input
+        user_input = user_input.strip()
+
+        if user_input == "":
+            user_input = you_input()
+            continue
+
+        if user_input in commands:
+            send_response = commands[user_input]["function"]()
+
+            if send_response != None and send_response.strip() != "":
+                prompt = send_response
+            else:
+                user_input = you_input()
+                continue
+
+        if (user_input == "last"):
+            last_command = last_ran_command_from_history()
+
+            if (last_command != None and last_command.strip() != ""):
+                print()
+                print("I must rerun your last command to see it's output")
+                print()
+                send_response = run_custom(last_command)
+
+                if send_response != None and send_response.strip() != "":
+                    prompt = send_response
+                else:
+                    user_input = you_input()
+                    continue
+
         if prompt == None:
-            prompt = parse_prompt("prompt.start.txt", { 'question': user_input })
-
-        chat_output = openai_chat(prompt, chat_output)
-
-        yaml_output = re.search(r'\[yaml\](.*?)\[/yaml\]', chat_output, re.DOTALL)
-        has_yaml = yaml_output != None
-
-        if (has_yaml):
-            yaml_response = yaml.safe_load(yaml_output.group(1))
-
-            if "command" in yaml_response:
-                command_output = run_command(yaml_response["command"])
-
-                if command_output != None:
-                    prompt = parse_prompt("prompt.command.txt", { 'output': command_output })
-                    continue;
-
-            if "file" in yaml_response:
-                write_file(yaml_response["file"], yaml_response["contents"])
-
+            prompt = parse_prompt(app_state["start_prompt"], { 'question': user_input })
 
         print()
-        print()
-        print("You:", end=' ')
-        user_input = input()
+
+        chat_output = aichat.chat(prompt, chat_output)
+
+        log(prompt)
+        log(chat_output)
+        
+        send_response = parse_output(chat_output)
+
+        if send_response.strip() != "":
+            prompt = send_response
+            continue
+            
         print()
 
-        prompt = parse_prompt("prompt.chat.txt", { 'question': user_input })
+        user_input = you_input()
+
+        for plugin in loaded_plugins:
+            # if plugin["user_input"] != None:
+            # Check if there is a user_input function
+            if hasattr(plugin, "user_input") and callable(getattr(plugin, "user_input")):
+                user_input = plugin["user_input"](user_input)
+    
+        prompt = parse_prompt(prompt_path("question"), { 'question': user_input })
     exit()
 
+loaded_plugins = []
+
 if __name__ == "__main__":  
-    main()
+    try:
+        install()
+        # load_plugins(commands)
+        loaded_plugins = load_plugins({
+                'app_state': app_state,
+                'commands': commands,
+                'clear': clear,
+                'parse_prompt': parse_prompt,
+                'prompt_path': prompt_path,
+                'set_mode': set_mode,
+            },
+        )
+        main()
+    except KeyboardInterrupt:
+        print()
+        exit()

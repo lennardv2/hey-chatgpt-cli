@@ -1,3 +1,4 @@
-include hey/prompt.chat.txt
 include hey/prompt.command.txt
-include hey/prompt.start.txt
+include hey/prompt.mode.chat.txt
+include hey/prompt.mode.cli.txt
+include hey/prompt.question.txt

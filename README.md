@@ -12,6 +12,14 @@ pipx install hey
 ```
 Once Hey is installed, you can run it from anywhere on your system by typing `hey` in your terminal.
 
+(see pipx https://pypa.github.io/pipx/)
+
+Alternatively, you can install Hey using pip:
+
+```
+pip install hey
+```
+
 ## Usage
 
 ```
