@@ -1,10 +1,10 @@
-import actions
+import hey.actions
 from prompt_toolkit import prompt
 import re
 import yaml
-from prompt import parse_prompt
+from hey.prompt import parse_prompt
 from termcolor import colored
-from cli import prompt_path
+from hey.cli import prompt_path
 
 def print_header(title, index, length, type="Command", dangerous = False):
     show_num = "(" + str(index + 1) + "/" + str(length) + ") "
@@ -53,7 +53,7 @@ def parse_output(chat_output):
             print_header(command, index, len(yaml_output), "Command", dangerous)
 
             # run the command
-            command_output, command_errors = actions.run_command(command, dangerous)
+            command_output, command_errors = hey.actions.run_command(command, dangerous)
 
             print()
 
@@ -69,7 +69,7 @@ def parse_output(chat_output):
 
             # check if the command has output
             if output != None and output.strip() != "":
-                run_throught_gpt = actions.ask_run_through_gpt(output)
+                run_throught_gpt = hey.actions.ask_run_through_gpt(output)
 
                 if (run_throught_gpt == True):
                     response += parse_prompt(prompt_path("command"), { 'command': command, 'output': output })
@@ -81,7 +81,7 @@ def parse_output(chat_output):
             # write the file
             print_header(file, index, len(yaml_output), "File", dangerous)
 
-            actions.write_file(yaml_response["file"], yaml_response["contents"])
+            hey.actions.write_file(yaml_response["file"], yaml_response["contents"])
 
         # if "curl" in yaml_response:
         #     curl = yaml_response["curl"]

@@ -1,4 +1,3 @@
-include hey/prompt.command.txt
-include hey/prompt.mode.chat.txt
-include hey/prompt.mode.cli.txt
-include hey/prompt.question.txt
+include hey/plugins/*/*
+include hey/prompt/*
+include hey/prompt/*.py

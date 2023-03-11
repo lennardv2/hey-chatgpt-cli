@@ -28,6 +28,8 @@ share/python-wheels/
 *.egg
 MANIFEST
 
+publish.sh
+
 todo.md
 
 # PyInstaller

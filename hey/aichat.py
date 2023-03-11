@@ -1,6 +1,6 @@
 import openai
 import os
-from prompt import swallow_yaml
+from hey.prompt import swallow_yaml
 import tiktoken
 
 messages = []

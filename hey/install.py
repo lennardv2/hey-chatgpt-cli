@@ -1,8 +1,8 @@
 import os
 import glob
 from prompt_toolkit import prompt
-import shutil
-from aichat import find_openai_key
+
+from hey.aichat import find_openai_key
 from termcolor import colored
 
 def install(force=False):

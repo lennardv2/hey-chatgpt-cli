@@ -1,4 +1,4 @@
-import aichat
+import hey.aichat
 import os
 import subprocess
 home_path = os.path.expanduser("~")  
@@ -6,7 +6,7 @@ from simple_term_menu import TerminalMenu
 from termcolor import colored
 from prompt_toolkit import prompt
 from prompt_toolkit.styles import Style
-from cli import cmd_session
+from hey.cli import cmd_session
 import sys
 
 def run(command):
@@ -80,7 +80,7 @@ def run_command(command, dangerous):
         exit()
 
 def ask_run_through_gpt(response):
-    print (colored("Do you want to send the response to chatgpt? (" + str(aichat.count_tokens(response)) + "/" + str(aichat.get_tokens_available()) + " tokens)", "blue"))
+    print (colored("Do you want to send the response to chatgpt? (" + str(hey.aichat.count_tokens(response)) + "/" + str(hey.aichat.get_tokens_available()) + " tokens)", "blue"))
     print()
 
     options = ["No", "Yes", "Exit"]

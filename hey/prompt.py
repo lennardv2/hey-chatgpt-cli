@@ -1,4 +1,4 @@
-import helpers
+import hey.helpers
 import termcolor
 from termcolor import colored
 from colorama import init
@@ -52,10 +52,10 @@ def parse_prompt(prompt_file, data = {}):
     pre_prompt = pre_prompt.replace("{shell}", shell)
     for key in data:
         pre_prompt = pre_prompt.replace("{"+key+"}", data[key])
-    pre_prompt = pre_prompt.replace("{os}", helpers.get_os_friendly_name())
+    pre_prompt = pre_prompt.replace("{os}", hey.helpers.get_os_friendly_name())
     pre_prompt = pre_prompt.replace("{pwd}", os.getcwd())
     # Use puthon date functions
-    pre_prompt = pre_prompt.replace("{datetime}", helpers.get_datetime())
+    pre_prompt = pre_prompt.replace("{datetime}", hey.helpers.get_datetime())
 
     prompt = pre_prompt
 

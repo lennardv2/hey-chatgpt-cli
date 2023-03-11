@@ -6,9 +6,9 @@ import sys
 from termcolor import colored
 from colorama import init
 
-import aichat
+import hey.aichat
 
-from prompt import parse_prompt
+from hey.prompt import parse_prompt
 from prompt_toolkit import PromptSession
 from prompt_toolkit.cursor_shapes import CursorShape
 from prompt_toolkit.key_binding import KeyBindings
@@ -18,8 +18,8 @@ from prompt_toolkit.styles import Style
 from prompt_toolkit.history import FileHistory
 from prompt_toolkit.auto_suggest import AutoSuggestFromHistory
 
-from install import install
-from install import load_plugins
+from hey.install import install
+from hey.install import load_plugins
 
 prompt = None
 
@@ -91,7 +91,7 @@ def exit():
 def clear():
     global prompt
     prompt = None
-    aichat.clear()
+    hey.aichat.clear()
 
     print("ChatGPT history reset")
 
@@ -144,7 +144,7 @@ def clear_history():
     print("Hey history cleared on disk")
 
 def run_custom(command = ""):
-    from parse import parse_output
+    from hey.parse import parse_output
     command = cmd_session.prompt("Command: ", default=command)
 
     if command == "exit" or "":
@@ -220,18 +220,18 @@ def you_input():
 
     def get_rprompt():
         text = session.default_buffer.text
-        return 'Tokens: ' + str(aichat.get_tokens(text)) + "/" + str(aichat.max_tokens())
+        return 'Tokens: ' + str(hey.aichat.get_tokens(text)) + "/" + str(hey.aichat.max_tokens())
 
     user_input = session.prompt(msg, rprompt=get_rprompt, style=style, cursor=CursorShape.BEAM, auto_suggest=AutoSuggestFromHistory())
 
     return user_input
 
 def main():
-    from parse import parse_output
+    from hey.parse import parse_output
     global prompt
     init()
 
-    aichat.find_openai_key()
+    hey.aichat.find_openai_key()
 
     user_input = get_initial_arguments()
 
@@ -278,7 +278,7 @@ def main():
 
         print()
 
-        chat_output = aichat.chat(prompt, chat_output)
+        chat_output = hey.aichat.chat(prompt, chat_output)
 
         log(prompt)
         log(chat_output)
