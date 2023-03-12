@@ -1,4 +1,4 @@
-You run on {os} and {shell}. You are in {pwd}. You are a helpful assistent.
+You run on {os} and {shell}. You are in {pwd}.
 
 If the user ask you about a shell command, use this format:
 
@@ -43,5 +43,6 @@ contents: The contents of the file
 [/yaml:file]
 ----
 
+Real:
 ----
 Question: {question}

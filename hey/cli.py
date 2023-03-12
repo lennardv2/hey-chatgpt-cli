@@ -4,9 +4,10 @@ import os
 import sys
 
 from termcolor import colored
-from colorama import init
+import colorama
 
 import hey.aichat
+import importlib.metadata
 
 from hey.prompt import parse_prompt
 from prompt_toolkit import PromptSession
@@ -18,8 +19,17 @@ from prompt_toolkit.styles import Style
 from prompt_toolkit.history import FileHistory
 from prompt_toolkit.auto_suggest import AutoSuggestFromHistory
 
-from hey.install import install
-from hey.install import load_plugins
+from hey.install import install, load_plugins
+
+# # items = ["It", " ", "is ", "a ", "beautiful ", "day ", "\n", "```", "python\n", "hello = 123", "``", "`\n", "Hmh"]
+# items = ["It", " ", "is ", "a ", "beautiful ", "day ", "\n", "```", "python\n", "hello = 123", "``", "`\n", "Hmh"]
+
+# for item in items:
+#     hey.aichat.print_output(item)
+
+# hey.aichat.print_output("", finished=True)
+
+# exit()
 
 prompt = None
 
@@ -53,16 +63,19 @@ def prompt_path(name):
 
     return paths['prompt_path'] + name + ".txt"
 
+def read_prompt(path):
+    return open(path,"r").read()
+
 app_state = {
     "log_mode": False,
-    "start_prompt": prompt_path("cli"),
+    "start_prompt": read_prompt(prompt_path("cli")),
 }
 
 session = PromptSession(history=FileHistory(paths["chat_history"]))
 cmd_session = PromptSession(history=FileHistory(paths["commands_history"]))
 
-__author__ = "Lennard Voogdt"
-__version__ = "1.0.0"
+__author__ = importlib.metadata.metadata("hey-gpt")['Author']
+__version__ = importlib.metadata.version("hey-gpt")
 
 def get_initial_arguments():
     # Parse arguments and make sure we have at least a single word
@@ -119,18 +132,18 @@ def show_log():
         print(file.read())
         file.close()
 
-# def set_mode(mode):
+# def set_start_prompt(mode):
 
 def mode(mode):
     if (mode == "cli"):
-        set_mode("cli", prompt_path("cli"))
+        set_start_prompt("cli", read_prompt(prompt_path("cli")))
 
     elif (mode == "chat"):
-        set_mode("chat", prompt_path("chat"))
+        set_start_prompt("chat", read_prompt(prompt_path("chat")))
 
-def set_mode(mode, prompt_path):
+def set_start_prompt(mode, prompt_text):
     clear()
-    app_state["start_prompt"] = prompt_path
+    app_state["start_prompt"] = prompt_text
     print("You are now in " + mode + " mode.")
 
 def clear_history():
@@ -215,7 +228,7 @@ commands = {
 
 def you_input():
     style = Style.from_dict({'': '#59acfb','you': '#59acfb',})
-    msg = [('class:you', 'You: ')]
+    msg = [('class:you', '❯ ')]
     print()
 
     def get_rprompt():
@@ -229,7 +242,7 @@ def you_input():
 def main():
     from hey.parse import parse_output
     global prompt
-    init()
+    colorama.init()
 
     hey.aichat.find_openai_key()
 
@@ -293,31 +306,24 @@ def main():
 
         user_input = you_input()
 
-        for plugin in loaded_plugins:
-            # if plugin["user_input"] != None:
-            # Check if there is a user_input function
-            if hasattr(plugin, "user_input") and callable(getattr(plugin, "user_input")):
-                user_input = plugin["user_input"](user_input)
-    
-        prompt = parse_prompt(prompt_path("question"), { 'question': user_input })
+        prompt = parse_prompt(read_prompt(prompt_path("question")), { 'question': user_input })
     exit()
 
 loaded_plugins = []
 
-if __name__ == "__main__":  
+def init():
     try:
-        install()
+        hey.install.install()
         # load_plugins(commands)
         loaded_plugins = load_plugins({
                 'app_state': app_state,
                 'commands': commands,
-                'clear': clear,
-                'parse_prompt': parse_prompt,
-                'prompt_path': prompt_path,
-                'set_mode': set_mode,
             },
         )
         main()
     except KeyboardInterrupt:
         print()
         exit()
+
+if __name__ == "__main__":  
+    init()

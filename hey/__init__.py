@@ -6,13 +6,13 @@
 import hey.cli
 
 __author__ = "Lennard Voogdt"
-__version__ = "1.1.1"
+__version__ = "1.1.2"
 
 def main(source = None):
-    hey.cli.main()
+    hey.cli.init()
     
     pass
 
 # main
 if __name__ == "__main__":
-    hey.cli.main()
+    hey.cli.init()

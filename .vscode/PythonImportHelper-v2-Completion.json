@@ -9,6 +9,374 @@
         "documentation": {}
     },
     {
+        "label": "read_prompt",
+        "importPath": "hey.cli",
+        "description": "hey.cli",
+        "isExtraImport": true,
+        "detail": "hey.cli",
+        "documentation": {}
+    },
+    {
+        "label": "set_start_prompt",
+        "importPath": "hey.cli",
+        "description": "hey.cli",
+        "isExtraImport": true,
+        "detail": "hey.cli",
+        "documentation": {}
+    },
+    {
+        "label": "read_prompt",
+        "importPath": "hey.cli",
+        "description": "hey.cli",
+        "isExtraImport": true,
+        "detail": "hey.cli",
+        "documentation": {}
+    },
+    {
+        "label": "set_start_prompt",
+        "importPath": "hey.cli",
+        "description": "hey.cli",
+        "isExtraImport": true,
+        "detail": "hey.cli",
+        "documentation": {}
+    },
+    {
+        "label": "read_prompt",
+        "importPath": "hey.cli",
+        "description": "hey.cli",
+        "isExtraImport": true,
+        "detail": "hey.cli",
+        "documentation": {}
+    },
+    {
+        "label": "set_start_prompt",
+        "importPath": "hey.cli",
+        "description": "hey.cli",
+        "isExtraImport": true,
+        "detail": "hey.cli",
+        "documentation": {}
+    },
+    {
+        "label": "read_prompt",
+        "importPath": "hey.cli",
+        "description": "hey.cli",
+        "isExtraImport": true,
+        "detail": "hey.cli",
+        "documentation": {}
+    },
+    {
+        "label": "set_start_prompt",
+        "importPath": "hey.cli",
+        "description": "hey.cli",
+        "isExtraImport": true,
+        "detail": "hey.cli",
+        "documentation": {}
+    },
+    {
+        "label": "cmd_session",
+        "importPath": "hey.cli",
+        "description": "hey.cli",
+        "isExtraImport": true,
+        "detail": "hey.cli",
+        "documentation": {}
+    },
+    {
+        "label": "prompt_path",
+        "importPath": "hey.cli",
+        "description": "hey.cli",
+        "isExtraImport": true,
+        "detail": "hey.cli",
+        "documentation": {}
+    },
+    {
+        "label": "read_prompt",
+        "importPath": "hey.cli",
+        "description": "hey.cli",
+        "isExtraImport": true,
+        "detail": "hey.cli",
+        "documentation": {}
+    },
+    {
+        "label": "read_prompt",
+        "importPath": "hey.cli",
+        "description": "hey.cli",
+        "isExtraImport": true,
+        "detail": "hey.cli",
+        "documentation": {}
+    },
+    {
+        "label": "set_start_prompt",
+        "importPath": "hey.cli",
+        "description": "hey.cli",
+        "isExtraImport": true,
+        "detail": "hey.cli",
+        "documentation": {}
+    },
+    {
+        "label": "read_prompt",
+        "importPath": "hey.cli",
+        "description": "hey.cli",
+        "isExtraImport": true,
+        "detail": "hey.cli",
+        "documentation": {}
+    },
+    {
+        "label": "set_start_prompt",
+        "importPath": "hey.cli",
+        "description": "hey.cli",
+        "isExtraImport": true,
+        "detail": "hey.cli",
+        "documentation": {}
+    },
+    {
+        "label": "read_prompt",
+        "importPath": "hey.cli",
+        "description": "hey.cli",
+        "isExtraImport": true,
+        "detail": "hey.cli",
+        "documentation": {}
+    },
+    {
+        "label": "set_start_prompt",
+        "importPath": "hey.cli",
+        "description": "hey.cli",
+        "isExtraImport": true,
+        "detail": "hey.cli",
+        "documentation": {}
+    },
+    {
+        "label": "read_prompt",
+        "importPath": "hey.cli",
+        "description": "hey.cli",
+        "isExtraImport": true,
+        "detail": "hey.cli",
+        "documentation": {}
+    },
+    {
+        "label": "set_start_prompt",
+        "importPath": "hey.cli",
+        "description": "hey.cli",
+        "isExtraImport": true,
+        "detail": "hey.cli",
+        "documentation": {}
+    },
+    {
+        "label": "cmd_session",
+        "importPath": "hey.cli",
+        "description": "hey.cli",
+        "isExtraImport": true,
+        "detail": "hey.cli",
+        "documentation": {}
+    },
+    {
+        "label": "prompt_path",
+        "importPath": "hey.cli",
+        "description": "hey.cli",
+        "isExtraImport": true,
+        "detail": "hey.cli",
+        "documentation": {}
+    },
+    {
+        "label": "read_prompt",
+        "importPath": "hey.cli",
+        "description": "hey.cli",
+        "isExtraImport": true,
+        "detail": "hey.cli",
+        "documentation": {}
+    },
+    {
+        "label": "PromptSession",
+        "importPath": "prompt_toolkit",
+        "description": "prompt_toolkit",
+        "isExtraImport": true,
+        "detail": "prompt_toolkit",
+        "documentation": {}
+    },
+    {
+        "label": "prompt",
+        "importPath": "prompt_toolkit",
+        "description": "prompt_toolkit",
+        "isExtraImport": true,
+        "detail": "prompt_toolkit",
+        "documentation": {}
+    },
+    {
+        "label": "PromptSession",
+        "importPath": "prompt_toolkit",
+        "description": "prompt_toolkit",
+        "isExtraImport": true,
+        "detail": "prompt_toolkit",
+        "documentation": {}
+    },
+    {
+        "label": "prompt",
+        "importPath": "prompt_toolkit",
+        "description": "prompt_toolkit",
+        "isExtraImport": true,
+        "detail": "prompt_toolkit",
+        "documentation": {}
+    },
+    {
+        "label": "prompt",
+        "importPath": "prompt_toolkit",
+        "description": "prompt_toolkit",
+        "isExtraImport": true,
+        "detail": "prompt_toolkit",
+        "documentation": {}
+    },
+    {
+        "label": "PromptSession",
+        "importPath": "prompt_toolkit",
+        "description": "prompt_toolkit",
+        "isExtraImport": true,
+        "detail": "prompt_toolkit",
+        "documentation": {}
+    },
+    {
+        "label": "prompt",
+        "importPath": "prompt_toolkit",
+        "description": "prompt_toolkit",
+        "isExtraImport": true,
+        "detail": "prompt_toolkit",
+        "documentation": {}
+    },
+    {
+        "label": "PromptSession",
+        "importPath": "prompt_toolkit",
+        "description": "prompt_toolkit",
+        "isExtraImport": true,
+        "detail": "prompt_toolkit",
+        "documentation": {}
+    },
+    {
+        "label": "prompt",
+        "importPath": "prompt_toolkit",
+        "description": "prompt_toolkit",
+        "isExtraImport": true,
+        "detail": "prompt_toolkit",
+        "documentation": {}
+    },
+    {
+        "label": "prompt",
+        "importPath": "prompt_toolkit",
+        "description": "prompt_toolkit",
+        "isExtraImport": true,
+        "detail": "prompt_toolkit",
+        "documentation": {}
+    },
+    {
+        "label": "FileHistory",
+        "importPath": "prompt_toolkit.history",
+        "description": "prompt_toolkit.history",
+        "isExtraImport": true,
+        "detail": "prompt_toolkit.history",
+        "documentation": {}
+    },
+    {
+        "label": "FileHistory",
+        "importPath": "prompt_toolkit.history",
+        "description": "prompt_toolkit.history",
+        "isExtraImport": true,
+        "detail": "prompt_toolkit.history",
+        "documentation": {}
+    },
+    {
+        "label": "FileHistory",
+        "importPath": "prompt_toolkit.history",
+        "description": "prompt_toolkit.history",
+        "isExtraImport": true,
+        "detail": "prompt_toolkit.history",
+        "documentation": {}
+    },
+    {
+        "label": "FileHistory",
+        "importPath": "prompt_toolkit.history",
+        "description": "prompt_toolkit.history",
+        "isExtraImport": true,
+        "detail": "prompt_toolkit.history",
+        "documentation": {}
+    },
+    {
+        "label": "parse_prompt",
+        "importPath": "hey.prompt",
+        "description": "hey.prompt",
+        "isExtraImport": true,
+        "detail": "hey.prompt",
+        "documentation": {}
+    },
+    {
+        "label": "swallow_yaml",
+        "importPath": "hey.prompt",
+        "description": "hey.prompt",
+        "isExtraImport": true,
+        "detail": "hey.prompt",
+        "documentation": {}
+    },
+    {
+        "label": "syntax_highlighter",
+        "importPath": "hey.prompt",
+        "description": "hey.prompt",
+        "isExtraImport": true,
+        "detail": "hey.prompt",
+        "documentation": {}
+    },
+    {
+        "label": "parse_prompt",
+        "importPath": "hey.prompt",
+        "description": "hey.prompt",
+        "isExtraImport": true,
+        "detail": "hey.prompt",
+        "documentation": {}
+    },
+    {
+        "label": "parse_prompt",
+        "importPath": "hey.prompt",
+        "description": "hey.prompt",
+        "isExtraImport": true,
+        "detail": "hey.prompt",
+        "documentation": {}
+    },
+    {
+        "label": "parse_prompt",
+        "importPath": "hey.prompt",
+        "description": "hey.prompt",
+        "isExtraImport": true,
+        "detail": "hey.prompt",
+        "documentation": {}
+    },
+    {
+        "label": "swallow_yaml",
+        "importPath": "hey.prompt",
+        "description": "hey.prompt",
+        "isExtraImport": true,
+        "detail": "hey.prompt",
+        "documentation": {}
+    },
+    {
+        "label": "syntax_highlighter",
+        "importPath": "hey.prompt",
+        "description": "hey.prompt",
+        "isExtraImport": true,
+        "detail": "hey.prompt",
+        "documentation": {}
+    },
+    {
+        "label": "parse_prompt",
+        "importPath": "hey.prompt",
+        "description": "hey.prompt",
+        "isExtraImport": true,
+        "detail": "hey.prompt",
+        "documentation": {}
+    },
+    {
+        "label": "parse_prompt",
+        "importPath": "hey.prompt",
+        "description": "hey.prompt",
+        "isExtraImport": true,
+        "detail": "hey.prompt",
+        "documentation": {}
+    },
+    {
         "label": "hey.aichat",
         "kind": 6,
         "isExtraImport": true,
@@ -157,70 +525,6 @@
         "documentation": {}
     },
     {
-        "label": "prompt",
-        "importPath": "prompt_toolkit",
-        "description": "prompt_toolkit",
-        "isExtraImport": true,
-        "detail": "prompt_toolkit",
-        "documentation": {}
-    },
-    {
-        "label": "PromptSession",
-        "importPath": "prompt_toolkit",
-        "description": "prompt_toolkit",
-        "isExtraImport": true,
-        "detail": "prompt_toolkit",
-        "documentation": {}
-    },
-    {
-        "label": "prompt",
-        "importPath": "prompt_toolkit",
-        "description": "prompt_toolkit",
-        "isExtraImport": true,
-        "detail": "prompt_toolkit",
-        "documentation": {}
-    },
-    {
-        "label": "prompt",
-        "importPath": "prompt_toolkit",
-        "description": "prompt_toolkit",
-        "isExtraImport": true,
-        "detail": "prompt_toolkit",
-        "documentation": {}
-    },
-    {
-        "label": "prompt",
-        "importPath": "prompt_toolkit",
-        "description": "prompt_toolkit",
-        "isExtraImport": true,
-        "detail": "prompt_toolkit",
-        "documentation": {}
-    },
-    {
-        "label": "PromptSession",
-        "importPath": "prompt_toolkit",
-        "description": "prompt_toolkit",
-        "isExtraImport": true,
-        "detail": "prompt_toolkit",
-        "documentation": {}
-    },
-    {
-        "label": "prompt",
-        "importPath": "prompt_toolkit",
-        "description": "prompt_toolkit",
-        "isExtraImport": true,
-        "detail": "prompt_toolkit",
-        "documentation": {}
-    },
-    {
-        "label": "prompt",
-        "importPath": "prompt_toolkit",
-        "description": "prompt_toolkit",
-        "isExtraImport": true,
-        "detail": "prompt_toolkit",
-        "documentation": {}
-    },
-    {
         "label": "Style",
         "importPath": "prompt_toolkit.styles",
         "description": "prompt_toolkit.styles",
@@ -250,38 +554,6 @@
         "description": "prompt_toolkit.styles",
         "isExtraImport": true,
         "detail": "prompt_toolkit.styles",
-        "documentation": {}
-    },
-    {
-        "label": "cmd_session",
-        "importPath": "hey.cli",
-        "description": "hey.cli",
-        "isExtraImport": true,
-        "detail": "hey.cli",
-        "documentation": {}
-    },
-    {
-        "label": "prompt_path",
-        "importPath": "hey.cli",
-        "description": "hey.cli",
-        "isExtraImport": true,
-        "detail": "hey.cli",
-        "documentation": {}
-    },
-    {
-        "label": "cmd_session",
-        "importPath": "hey.cli",
-        "description": "hey.cli",
-        "isExtraImport": true,
-        "detail": "hey.cli",
-        "documentation": {}
-    },
-    {
-        "label": "prompt_path",
-        "importPath": "hey.cli",
-        "description": "hey.cli",
-        "isExtraImport": true,
-        "detail": "hey.cli",
         "documentation": {}
     },
     {
@@ -303,54 +575,6 @@
         "documentation": {}
     },
     {
-        "label": "swallow_yaml",
-        "importPath": "hey.prompt",
-        "description": "hey.prompt",
-        "isExtraImport": true,
-        "detail": "hey.prompt",
-        "documentation": {}
-    },
-    {
-        "label": "parse_prompt",
-        "importPath": "hey.prompt",
-        "description": "hey.prompt",
-        "isExtraImport": true,
-        "detail": "hey.prompt",
-        "documentation": {}
-    },
-    {
-        "label": "parse_prompt",
-        "importPath": "hey.prompt",
-        "description": "hey.prompt",
-        "isExtraImport": true,
-        "detail": "hey.prompt",
-        "documentation": {}
-    },
-    {
-        "label": "swallow_yaml",
-        "importPath": "hey.prompt",
-        "description": "hey.prompt",
-        "isExtraImport": true,
-        "detail": "hey.prompt",
-        "documentation": {}
-    },
-    {
-        "label": "parse_prompt",
-        "importPath": "hey.prompt",
-        "description": "hey.prompt",
-        "isExtraImport": true,
-        "detail": "hey.prompt",
-        "documentation": {}
-    },
-    {
-        "label": "parse_prompt",
-        "importPath": "hey.prompt",
-        "description": "hey.prompt",
-        "isExtraImport": true,
-        "detail": "hey.prompt",
-        "documentation": {}
-    },
-    {
         "label": "tiktoken",
         "kind": 6,
         "isExtraImport": true,
@@ -360,10 +584,107 @@
         "documentation": {}
     },
     {
-        "label": "init",
+        "label": "highlight",
+        "importPath": "pygments",
+        "description": "pygments",
+        "isExtraImport": true,
+        "detail": "pygments",
+        "documentation": {}
+    },
+    {
+        "label": "highlight",
+        "importPath": "pygments",
+        "description": "pygments",
+        "isExtraImport": true,
+        "detail": "pygments",
+        "documentation": {}
+    },
+    {
+        "label": "highlight",
+        "importPath": "pygments",
+        "description": "pygments",
+        "isExtraImport": true,
+        "detail": "pygments",
+        "documentation": {}
+    },
+    {
+        "label": "highlight",
+        "importPath": "pygments",
+        "description": "pygments",
+        "isExtraImport": true,
+        "detail": "pygments",
+        "documentation": {}
+    },
+    {
+        "label": "get_lexer_by_name",
+        "importPath": "pygments.lexers",
+        "description": "pygments.lexers",
+        "isExtraImport": true,
+        "detail": "pygments.lexers",
+        "documentation": {}
+    },
+    {
+        "label": "get_lexer_by_name",
+        "importPath": "pygments.lexers",
+        "description": "pygments.lexers",
+        "isExtraImport": true,
+        "detail": "pygments.lexers",
+        "documentation": {}
+    },
+    {
+        "label": "get_lexer_by_name",
+        "importPath": "pygments.lexers",
+        "description": "pygments.lexers",
+        "isExtraImport": true,
+        "detail": "pygments.lexers",
+        "documentation": {}
+    },
+    {
+        "label": "get_lexer_by_name",
+        "importPath": "pygments.lexers",
+        "description": "pygments.lexers",
+        "isExtraImport": true,
+        "detail": "pygments.lexers",
+        "documentation": {}
+    },
+    {
+        "label": "TerminalFormatter",
+        "importPath": "pygments.formatters",
+        "description": "pygments.formatters",
+        "isExtraImport": true,
+        "detail": "pygments.formatters",
+        "documentation": {}
+    },
+    {
+        "label": "TerminalFormatter",
+        "importPath": "pygments.formatters",
+        "description": "pygments.formatters",
+        "isExtraImport": true,
+        "detail": "pygments.formatters",
+        "documentation": {}
+    },
+    {
+        "label": "TerminalFormatter",
+        "importPath": "pygments.formatters",
+        "description": "pygments.formatters",
+        "isExtraImport": true,
+        "detail": "pygments.formatters",
+        "documentation": {}
+    },
+    {
+        "label": "TerminalFormatter",
+        "importPath": "pygments.formatters",
+        "description": "pygments.formatters",
+        "isExtraImport": true,
+        "detail": "pygments.formatters",
+        "documentation": {}
+    },
+    {
+        "label": "colorama",
+        "kind": 6,
+        "isExtraImport": true,
         "importPath": "colorama",
         "description": "colorama",
-        "isExtraImport": true,
         "detail": "colorama",
         "documentation": {}
     },
@@ -384,11 +705,12 @@
         "documentation": {}
     },
     {
-        "label": "init",
-        "importPath": "colorama",
-        "description": "colorama",
+        "label": "importlib.metadata",
+        "kind": 6,
         "isExtraImport": true,
-        "detail": "colorama",
+        "importPath": "importlib.metadata",
+        "description": "importlib.metadata",
+        "detail": "importlib.metadata",
         "documentation": {}
     },
     {
@@ -453,22 +775,6 @@
         "description": "prompt_toolkit.key_binding.bindings.named_commands",
         "isExtraImport": true,
         "detail": "prompt_toolkit.key_binding.bindings.named_commands",
-        "documentation": {}
-    },
-    {
-        "label": "FileHistory",
-        "importPath": "prompt_toolkit.history",
-        "description": "prompt_toolkit.history",
-        "isExtraImport": true,
-        "detail": "prompt_toolkit.history",
-        "documentation": {}
-    },
-    {
-        "label": "FileHistory",
-        "importPath": "prompt_toolkit.history",
-        "description": "prompt_toolkit.history",
-        "isExtraImport": true,
-        "detail": "prompt_toolkit.history",
         "documentation": {}
     },
     {
@@ -603,7 +909,7 @@
         "kind": 2,
         "importPath": "build.lib.hey.plugins.chat.plugin",
         "description": "build.lib.hey.plugins.chat.plugin",
-        "peekOfCode": "def load(hey):\n    hey['commands']['chat'] = {\n        \"description\": \"This mode is just like using normal ChatGPT\",\n        \"function\": lambda: hey['set_mode'](\"chat\", script_path + \"/prompt.txt\"),\n    }",
+        "peekOfCode": "def load(hey):\n    hey['commands']['chat'] = {\n        \"description\": \"This mode is just like using normal ChatGPT\",\n        \"function\": lambda: set_start_prompt(\"chat\", read_prompt(script_path + \"/prompt.txt\")),\n    }",
         "detail": "build.lib.hey.plugins.chat.plugin",
         "documentation": {}
     },
@@ -612,7 +918,7 @@
         "kind": 5,
         "importPath": "build.lib.hey.plugins.chat.plugin",
         "description": "build.lib.hey.plugins.chat.plugin",
-        "peekOfCode": "script_path = os.path.dirname(os.path.realpath(__file__))\ndef load(hey):\n    hey['commands']['chat'] = {\n        \"description\": \"This mode is just like using normal ChatGPT\",\n        \"function\": lambda: hey['set_mode'](\"chat\", script_path + \"/prompt.txt\"),\n    }",
+        "peekOfCode": "script_path = os.path.dirname(os.path.realpath(__file__))\ndef load(hey):\n    hey['commands']['chat'] = {\n        \"description\": \"This mode is just like using normal ChatGPT\",\n        \"function\": lambda: set_start_prompt(\"chat\", read_prompt(script_path + \"/prompt.txt\")),\n    }",
         "detail": "build.lib.hey.plugins.chat.plugin",
         "documentation": {}
     },
@@ -621,7 +927,7 @@
         "kind": 2,
         "importPath": "build.lib.hey.plugins.cli.plugin",
         "description": "build.lib.hey.plugins.cli.plugin",
-        "peekOfCode": "def load(hey):\n    hey['commands']['cli'] = {\n        \"description\": \"This allows for receiving commands, files and more\",\n        \"function\": lambda: hey['set_mode'](\"cli\", script_path + \"/prompt.txt\"),\n    }",
+        "peekOfCode": "def load(hey):\n    hey['commands']['cli'] = {\n        \"description\": \"This allows for receiving commands, files and more\",\n        \"function\": lambda: set_start_prompt(\"cli\", read_prompt(script_path + \"/prompt.txt\")),\n    }",
         "detail": "build.lib.hey.plugins.cli.plugin",
         "documentation": {}
     },
@@ -630,16 +936,70 @@
         "kind": 5,
         "importPath": "build.lib.hey.plugins.cli.plugin",
         "description": "build.lib.hey.plugins.cli.plugin",
-        "peekOfCode": "script_path = os.path.dirname(os.path.realpath(__file__))\ndef load(hey):\n    hey['commands']['cli'] = {\n        \"description\": \"This allows for receiving commands, files and more\",\n        \"function\": lambda: hey['set_mode'](\"cli\", script_path + \"/prompt.txt\"),\n    }",
+        "peekOfCode": "script_path = os.path.dirname(os.path.realpath(__file__))\ndef load(hey):\n    hey['commands']['cli'] = {\n        \"description\": \"This allows for receiving commands, files and more\",\n        \"function\": lambda: set_start_prompt(\"cli\", read_prompt(script_path + \"/prompt.txt\")),\n    }",
         "detail": "build.lib.hey.plugins.cli.plugin",
         "documentation": {}
     },
     {
+        "label": "set_lang",
+        "kind": 2,
+        "importPath": "build.lib.hey.plugins.lang.plugin",
+        "description": "build.lib.hey.plugins.lang.plugin",
+        "peekOfCode": "def set_lang():\n    language = session.prompt(\"Enter a language: \")\n    prompt = parse_prompt(read_prompt(script_path + \"/prompt.txt\"), {\n        \"language\": language\n    })\n    set_start_prompt(language, prompt)\ndef load(hey):\n    hey['commands']['lang'] = {\n        \"description\": \"Set the prompt to a specific language\",\n        \"function\": set_lang",
+        "detail": "build.lib.hey.plugins.lang.plugin",
+        "documentation": {}
+    },
+    {
+        "label": "load",
+        "kind": 2,
+        "importPath": "build.lib.hey.plugins.lang.plugin",
+        "description": "build.lib.hey.plugins.lang.plugin",
+        "peekOfCode": "def load(hey):\n    hey['commands']['lang'] = {\n        \"description\": \"Set the prompt to a specific language\",\n        \"function\": set_lang\n    }",
+        "detail": "build.lib.hey.plugins.lang.plugin",
+        "documentation": {}
+    },
+    {
+        "label": "home_path",
+        "kind": 5,
+        "importPath": "build.lib.hey.plugins.lang.plugin",
+        "description": "build.lib.hey.plugins.lang.plugin",
+        "peekOfCode": "home_path = os.path.expanduser(\"~\")  \nuser_path = home_path + \"/.hey\"\nscript_path = os.path.dirname(os.path.realpath(__file__))\nsession = PromptSession(history=FileHistory(user_path + \"/lang_history\"))\ndef set_lang():\n    language = session.prompt(\"Enter a language: \")\n    prompt = parse_prompt(read_prompt(script_path + \"/prompt.txt\"), {\n        \"language\": language\n    })\n    set_start_prompt(language, prompt)",
+        "detail": "build.lib.hey.plugins.lang.plugin",
+        "documentation": {}
+    },
+    {
+        "label": "user_path",
+        "kind": 5,
+        "importPath": "build.lib.hey.plugins.lang.plugin",
+        "description": "build.lib.hey.plugins.lang.plugin",
+        "peekOfCode": "user_path = home_path + \"/.hey\"\nscript_path = os.path.dirname(os.path.realpath(__file__))\nsession = PromptSession(history=FileHistory(user_path + \"/lang_history\"))\ndef set_lang():\n    language = session.prompt(\"Enter a language: \")\n    prompt = parse_prompt(read_prompt(script_path + \"/prompt.txt\"), {\n        \"language\": language\n    })\n    set_start_prompt(language, prompt)\ndef load(hey):",
+        "detail": "build.lib.hey.plugins.lang.plugin",
+        "documentation": {}
+    },
+    {
+        "label": "script_path",
+        "kind": 5,
+        "importPath": "build.lib.hey.plugins.lang.plugin",
+        "description": "build.lib.hey.plugins.lang.plugin",
+        "peekOfCode": "script_path = os.path.dirname(os.path.realpath(__file__))\nsession = PromptSession(history=FileHistory(user_path + \"/lang_history\"))\ndef set_lang():\n    language = session.prompt(\"Enter a language: \")\n    prompt = parse_prompt(read_prompt(script_path + \"/prompt.txt\"), {\n        \"language\": language\n    })\n    set_start_prompt(language, prompt)\ndef load(hey):\n    hey['commands']['lang'] = {",
+        "detail": "build.lib.hey.plugins.lang.plugin",
+        "documentation": {}
+    },
+    {
+        "label": "session",
+        "kind": 5,
+        "importPath": "build.lib.hey.plugins.lang.plugin",
+        "description": "build.lib.hey.plugins.lang.plugin",
+        "peekOfCode": "session = PromptSession(history=FileHistory(user_path + \"/lang_history\"))\ndef set_lang():\n    language = session.prompt(\"Enter a language: \")\n    prompt = parse_prompt(read_prompt(script_path + \"/prompt.txt\"), {\n        \"language\": language\n    })\n    set_start_prompt(language, prompt)\ndef load(hey):\n    hey['commands']['lang'] = {\n        \"description\": \"Set the prompt to a specific language\",",
+        "detail": "build.lib.hey.plugins.lang.plugin",
+        "documentation": {}
+    },
+    {
         "label": "load",
         "kind": 2,
         "importPath": "build.lib.hey.plugins.python.plugin",
         "description": "build.lib.hey.plugins.python.plugin",
-        "peekOfCode": "def load(hey):\n    set_mode = hey['set_mode']\n    # Load the plugin\n    hey['commands']['python'] = {\n        \"description\": \"Python expert prompt\",\n        \"function\": lambda: set_mode(\"python\", script_path + \"/prompt.txt\"),\n    }",
+        "peekOfCode": "def load(hey):\n    # Load the plugin\n    hey['commands']['python'] = {\n        \"description\": \"Python expert prompt\",\n        \"function\": lambda: set_start_prompt(\"python\", read_prompt(script_path + \"/prompt.txt\")),\n    }",
         "detail": "build.lib.hey.plugins.python.plugin",
         "documentation": {}
     },
@@ -648,7 +1008,7 @@
         "kind": 5,
         "importPath": "build.lib.hey.plugins.python.plugin",
         "description": "build.lib.hey.plugins.python.plugin",
-        "peekOfCode": "script_path = os.path.dirname(os.path.realpath(__file__))\ndef load(hey):\n    set_mode = hey['set_mode']\n    # Load the plugin\n    hey['commands']['python'] = {\n        \"description\": \"Python expert prompt\",\n        \"function\": lambda: set_mode(\"python\", script_path + \"/prompt.txt\"),\n    }",
+        "peekOfCode": "script_path = os.path.dirname(os.path.realpath(__file__))\ndef load(hey):\n    # Load the plugin\n    hey['commands']['python'] = {\n        \"description\": \"Python expert prompt\",\n        \"function\": lambda: set_start_prompt(\"python\", read_prompt(script_path + \"/prompt.txt\")),\n    }",
         "detail": "build.lib.hey.plugins.python.plugin",
         "documentation": {}
     },
@@ -711,7 +1071,7 @@
         "kind": 2,
         "importPath": "build.lib.hey.aichat",
         "description": "build.lib.hey.aichat",
-        "peekOfCode": "def max_tokens():\n    return 4096\ndef count_tokens(text):\n    return len(encoding.encode(text))\ndef get_tokens(additional_tokens = \"\"):\n    total = count_tokens(additional_tokens)\n    for message in messages:\n        total += count_tokens(message[\"content\"])\n    return total\ndef get_tokens_available(additional_tokens = \"\"):",
+        "peekOfCode": "def max_tokens():\n    return 4096\ndef count_tokens(text):\n    return len(encoding.encode(text))\ndef get_tokens(additional_tokens = \"\"):\n    total = count_tokens(additional_tokens)\n    for message in messages:\n        total += count_tokens(message[\"content\"])\n    return total\ndef get_dollars(additional_tokens):",
         "detail": "build.lib.hey.aichat",
         "documentation": {}
     },
@@ -720,7 +1080,7 @@
         "kind": 2,
         "importPath": "build.lib.hey.aichat",
         "description": "build.lib.hey.aichat",
-        "peekOfCode": "def count_tokens(text):\n    return len(encoding.encode(text))\ndef get_tokens(additional_tokens = \"\"):\n    total = count_tokens(additional_tokens)\n    for message in messages:\n        total += count_tokens(message[\"content\"])\n    return total\ndef get_tokens_available(additional_tokens = \"\"):\n    return max_tokens() - get_tokens(additional_tokens)\ndef find_openai_key():",
+        "peekOfCode": "def count_tokens(text):\n    return len(encoding.encode(text))\ndef get_tokens(additional_tokens = \"\"):\n    total = count_tokens(additional_tokens)\n    for message in messages:\n        total += count_tokens(message[\"content\"])\n    return total\ndef get_dollars(additional_tokens):\n    return get_tokens(additional_tokens) / 1000 * 0.002\ndef get_tokens_available(additional_tokens = \"\"):",
         "detail": "build.lib.hey.aichat",
         "documentation": {}
     },
@@ -729,7 +1089,16 @@
         "kind": 2,
         "importPath": "build.lib.hey.aichat",
         "description": "build.lib.hey.aichat",
-        "peekOfCode": "def get_tokens(additional_tokens = \"\"):\n    total = count_tokens(additional_tokens)\n    for message in messages:\n        total += count_tokens(message[\"content\"])\n    return total\ndef get_tokens_available(additional_tokens = \"\"):\n    return max_tokens() - get_tokens(additional_tokens)\ndef find_openai_key():\n    home_path = os.path.expanduser(\"~\")    \n    openai.api_key_path = os.path.join(home_path,\".openai.apikey\")",
+        "peekOfCode": "def get_tokens(additional_tokens = \"\"):\n    total = count_tokens(additional_tokens)\n    for message in messages:\n        total += count_tokens(message[\"content\"])\n    return total\ndef get_dollars(additional_tokens):\n    return get_tokens(additional_tokens) / 1000 * 0.002\ndef get_tokens_available(additional_tokens = \"\"):\n    return max_tokens() - get_tokens(additional_tokens)\ndef find_openai_key():",
+        "detail": "build.lib.hey.aichat",
+        "documentation": {}
+    },
+    {
+        "label": "get_dollars",
+        "kind": 2,
+        "importPath": "build.lib.hey.aichat",
+        "description": "build.lib.hey.aichat",
+        "peekOfCode": "def get_dollars(additional_tokens):\n    return get_tokens(additional_tokens) / 1000 * 0.002\ndef get_tokens_available(additional_tokens = \"\"):\n    return max_tokens() - get_tokens(additional_tokens)\ndef find_openai_key():\n    home_path = os.path.expanduser(\"~\")    \n    openai.api_key_path = os.path.join(home_path,\".openai.apikey\")\ndef clear():\n    global messages\n    messages.clear()",
         "detail": "build.lib.hey.aichat",
         "documentation": {}
     },
@@ -738,7 +1107,7 @@
         "kind": 2,
         "importPath": "build.lib.hey.aichat",
         "description": "build.lib.hey.aichat",
-        "peekOfCode": "def get_tokens_available(additional_tokens = \"\"):\n    return max_tokens() - get_tokens(additional_tokens)\ndef find_openai_key():\n    home_path = os.path.expanduser(\"~\")    \n    openai.api_key_path = os.path.join(home_path,\".openai.apikey\")\ndef clear():\n    messages.clear()\ndef chat(message, assistant_message = None):\n    if assistant_message:\n        messages.append({\"role\": \"assistant\", \"content\": assistant_message})",
+        "peekOfCode": "def get_tokens_available(additional_tokens = \"\"):\n    return max_tokens() - get_tokens(additional_tokens)\ndef find_openai_key():\n    home_path = os.path.expanduser(\"~\")    \n    openai.api_key_path = os.path.join(home_path,\".openai.apikey\")\ndef clear():\n    global messages\n    messages.clear()\n    messages = [\n        {\"role\": \"system\", \"content\": \"You are called hey. You can help with questions about the command line, programming, or general questions.\"}",
         "detail": "build.lib.hey.aichat",
         "documentation": {}
     },
@@ -747,7 +1116,7 @@
         "kind": 2,
         "importPath": "build.lib.hey.aichat",
         "description": "build.lib.hey.aichat",
-        "peekOfCode": "def find_openai_key():\n    home_path = os.path.expanduser(\"~\")    \n    openai.api_key_path = os.path.join(home_path,\".openai.apikey\")\ndef clear():\n    messages.clear()\ndef chat(message, assistant_message = None):\n    if assistant_message:\n        messages.append({\"role\": \"assistant\", \"content\": assistant_message})\n    messages.append({\"role\": \"user\", \"content\": message})\n    response = openai.ChatCompletion.create(",
+        "peekOfCode": "def find_openai_key():\n    home_path = os.path.expanduser(\"~\")    \n    openai.api_key_path = os.path.join(home_path,\".openai.apikey\")\ndef clear():\n    global messages\n    messages.clear()\n    messages = [\n        {\"role\": \"system\", \"content\": \"You are called hey. You can help with questions about the command line, programming, or general questions.\"}\n    ]\ndef chat(message, assistant_message = None):",
         "detail": "build.lib.hey.aichat",
         "documentation": {}
     },
@@ -756,7 +1125,7 @@
         "kind": 2,
         "importPath": "build.lib.hey.aichat",
         "description": "build.lib.hey.aichat",
-        "peekOfCode": "def clear():\n    messages.clear()\ndef chat(message, assistant_message = None):\n    if assistant_message:\n        messages.append({\"role\": \"assistant\", \"content\": assistant_message})\n    messages.append({\"role\": \"user\", \"content\": message})\n    response = openai.ChatCompletion.create(\n        model=\"gpt-3.5-turbo\",\n        messages=messages,\n        temperature=0,",
+        "peekOfCode": "def clear():\n    global messages\n    messages.clear()\n    messages = [\n        {\"role\": \"system\", \"content\": \"You are called hey. You can help with questions about the command line, programming, or general questions.\"}\n    ]\ndef chat(message, assistant_message = None):\n    if assistant_message:\n        messages.append({\"role\": \"assistant\", \"content\": assistant_message})\n    messages.append({\"role\": \"user\", \"content\": message})",
         "detail": "build.lib.hey.aichat",
         "documentation": {}
     },
@@ -765,7 +1134,16 @@
         "kind": 2,
         "importPath": "build.lib.hey.aichat",
         "description": "build.lib.hey.aichat",
-        "peekOfCode": "def chat(message, assistant_message = None):\n    if assistant_message:\n        messages.append({\"role\": \"assistant\", \"content\": assistant_message})\n    messages.append({\"role\": \"user\", \"content\": message})\n    response = openai.ChatCompletion.create(\n        model=\"gpt-3.5-turbo\",\n        messages=messages,\n        temperature=0,\n        max_tokens=1000,\n        stream=True",
+        "peekOfCode": "def chat(message, assistant_message = None):\n    if assistant_message:\n        messages.append({\"role\": \"assistant\", \"content\": assistant_message})\n    messages.append({\"role\": \"user\", \"content\": message})\n    # print(messages)\n    try:\n        response = openai.ChatCompletion.create(\n            model=\"gpt-3.5-turbo\",\n            messages=messages,\n            temperature=0,",
+        "detail": "build.lib.hey.aichat",
+        "documentation": {}
+    },
+    {
+        "label": "print_output",
+        "kind": 2,
+        "importPath": "build.lib.hey.aichat",
+        "description": "build.lib.hey.aichat",
+        "peekOfCode": "def print_output(output, finished=False):\n    global highlight_buffer\n    global highlight_index\n    global start_colorizing\n    global output_by_line\n    # global start_colorizing_line\n    if output == None:\n        return\n    def line_done(line):\n        global output_by_line",
         "detail": "build.lib.hey.aichat",
         "documentation": {}
     },
@@ -774,7 +1152,7 @@
         "kind": 5,
         "importPath": "build.lib.hey.aichat",
         "description": "build.lib.hey.aichat",
-        "peekOfCode": "messages = []\n# Count tokens with tiktoken\nencoding = tiktoken.encoding_for_model('gpt-3.5-turbo')\ndef max_tokens():\n    return 4096\ndef count_tokens(text):\n    return len(encoding.encode(text))\ndef get_tokens(additional_tokens = \"\"):\n    total = count_tokens(additional_tokens)\n    for message in messages:",
+        "peekOfCode": "messages = [\n    {\"role\": \"system\", \"content\": \"You are called hey. You can help with questions about the command line, programming, or general questions.\"}\n]\n# Count tokens with tiktoken\nencoding = tiktoken.encoding_for_model('gpt-3.5-turbo')\ndef max_tokens():\n    return 4096\ndef count_tokens(text):\n    return len(encoding.encode(text))\ndef get_tokens(additional_tokens = \"\"):",
         "detail": "build.lib.hey.aichat",
         "documentation": {}
     },
@@ -788,11 +1166,56 @@
         "documentation": {}
     },
     {
+        "label": "highlight_buffer",
+        "kind": 5,
+        "importPath": "build.lib.hey.aichat",
+        "description": "build.lib.hey.aichat",
+        "peekOfCode": "highlight_buffer = ['']\nhighlight_index = 0\nstart_colorizing = False\n# start_colorizing_line = 0\noutput_by_line = False\n# items = [\"It\", \" \", \"is \", \"a \", \"beautiful \", \"day \", \"\\n\", \"```\", \"python\\n\", \"hello = 123\", \"``\", \"`\\n\", \"Hmh\"]\n# items = [\"It\", \" \", \"is \", \"a \", \"beautiful \", \"day \", \"\\n\", \"```\", \"python\", \"hello = 123\", \"``\", \"`\\n\", \"Hmh\"]\ndef print_output(output, finished=False):\n    global highlight_buffer\n    global highlight_index",
+        "detail": "build.lib.hey.aichat",
+        "documentation": {}
+    },
+    {
+        "label": "highlight_index",
+        "kind": 5,
+        "importPath": "build.lib.hey.aichat",
+        "description": "build.lib.hey.aichat",
+        "peekOfCode": "highlight_index = 0\nstart_colorizing = False\n# start_colorizing_line = 0\noutput_by_line = False\n# items = [\"It\", \" \", \"is \", \"a \", \"beautiful \", \"day \", \"\\n\", \"```\", \"python\\n\", \"hello = 123\", \"``\", \"`\\n\", \"Hmh\"]\n# items = [\"It\", \" \", \"is \", \"a \", \"beautiful \", \"day \", \"\\n\", \"```\", \"python\", \"hello = 123\", \"``\", \"`\\n\", \"Hmh\"]\ndef print_output(output, finished=False):\n    global highlight_buffer\n    global highlight_index\n    global start_colorizing",
+        "detail": "build.lib.hey.aichat",
+        "documentation": {}
+    },
+    {
+        "label": "start_colorizing",
+        "kind": 5,
+        "importPath": "build.lib.hey.aichat",
+        "description": "build.lib.hey.aichat",
+        "peekOfCode": "start_colorizing = False\n# start_colorizing_line = 0\noutput_by_line = False\n# items = [\"It\", \" \", \"is \", \"a \", \"beautiful \", \"day \", \"\\n\", \"```\", \"python\\n\", \"hello = 123\", \"``\", \"`\\n\", \"Hmh\"]\n# items = [\"It\", \" \", \"is \", \"a \", \"beautiful \", \"day \", \"\\n\", \"```\", \"python\", \"hello = 123\", \"``\", \"`\\n\", \"Hmh\"]\ndef print_output(output, finished=False):\n    global highlight_buffer\n    global highlight_index\n    global start_colorizing\n    global output_by_line",
+        "detail": "build.lib.hey.aichat",
+        "documentation": {}
+    },
+    {
+        "label": "output_by_line",
+        "kind": 5,
+        "importPath": "build.lib.hey.aichat",
+        "description": "build.lib.hey.aichat",
+        "peekOfCode": "output_by_line = False\n# items = [\"It\", \" \", \"is \", \"a \", \"beautiful \", \"day \", \"\\n\", \"```\", \"python\\n\", \"hello = 123\", \"``\", \"`\\n\", \"Hmh\"]\n# items = [\"It\", \" \", \"is \", \"a \", \"beautiful \", \"day \", \"\\n\", \"```\", \"python\", \"hello = 123\", \"``\", \"`\\n\", \"Hmh\"]\ndef print_output(output, finished=False):\n    global highlight_buffer\n    global highlight_index\n    global start_colorizing\n    global output_by_line\n    # global start_colorizing_line\n    if output == None:",
+        "detail": "build.lib.hey.aichat",
+        "documentation": {}
+    },
+    {
         "label": "prompt_path",
         "kind": 2,
         "importPath": "build.lib.hey.cli",
         "description": "build.lib.hey.cli",
         "peekOfCode": "def prompt_path(name):\n    # Check for the user_dir\n    # Check ~/.hey/prompt/name.txt\n    if os.path.exists(user_path + \"/prompt/\" + name + \".txt\"):\n        return user_path + \"/prompt/\" + name + \".txt\"\n    # Check ~/.hey/plugins/name/prompt.txt\n    if os.path.exists(user_path + \"/plugins/\" + name + \"/prompt.txt\"):\n        return user_path + \"/plugins/\" + name + \"/prompt.txt\"\n    # Check program_path/prompt/name.txt\n    if os.path.exists(program_path + \"/prompt/\" + name + \".txt\"):",
+        "detail": "build.lib.hey.cli",
+        "documentation": {}
+    },
+    {
+        "label": "read_prompt",
+        "kind": 2,
+        "importPath": "build.lib.hey.cli",
+        "description": "build.lib.hey.cli",
+        "peekOfCode": "def read_prompt(path):\n    return open(path,\"r\").read()\napp_state = {\n    \"log_mode\": False,\n    \"start_prompt\": read_prompt(prompt_path(\"cli\")),\n}\nsession = PromptSession(history=FileHistory(paths[\"chat_history\"]))\ncmd_session = PromptSession(history=FileHistory(paths[\"commands_history\"]))\n__author__ = importlib.metadata.metadata(\"hey-gpt\")['Author']\n__version__ = importlib.metadata.version(\"hey-gpt\")",
         "detail": "build.lib.hey.cli",
         "documentation": {}
     },
@@ -855,7 +1278,7 @@
         "kind": 2,
         "importPath": "build.lib.hey.cli",
         "description": "build.lib.hey.cli",
-        "peekOfCode": "def show_log():\n    if app_state[\"log_mode\"] == True:\n        file = open(paths[\"log_file\"], \"r\")\n        print(file.read())\n        file.close()\n# def set_mode(mode):\ndef mode(mode):\n    if (mode == \"cli\"):\n        set_mode(\"cli\", prompt_path(\"cli\"))\n    elif (mode == \"chat\"):",
+        "peekOfCode": "def show_log():\n    if app_state[\"log_mode\"] == True:\n        file = open(paths[\"log_file\"], \"r\")\n        print(file.read())\n        file.close()\n# def set_start_prompt(mode):\ndef mode(mode):\n    if (mode == \"cli\"):\n        set_start_prompt(\"cli\", read_prompt(prompt_path(\"cli\")))\n    elif (mode == \"chat\"):",
         "detail": "build.lib.hey.cli",
         "documentation": {}
     },
@@ -864,16 +1287,16 @@
         "kind": 2,
         "importPath": "build.lib.hey.cli",
         "description": "build.lib.hey.cli",
-        "peekOfCode": "def mode(mode):\n    if (mode == \"cli\"):\n        set_mode(\"cli\", prompt_path(\"cli\"))\n    elif (mode == \"chat\"):\n        set_mode(\"chat\", prompt_path(\"chat\"))\ndef set_mode(mode, prompt_path):\n    clear()\n    app_state[\"start_prompt\"] = prompt_path\n    print(\"You are now in \" + mode + \" mode.\")\ndef clear_history():",
+        "peekOfCode": "def mode(mode):\n    if (mode == \"cli\"):\n        set_start_prompt(\"cli\", read_prompt(prompt_path(\"cli\")))\n    elif (mode == \"chat\"):\n        set_start_prompt(\"chat\", read_prompt(prompt_path(\"chat\")))\ndef set_start_prompt(mode, prompt_text):\n    clear()\n    app_state[\"start_prompt\"] = prompt_text\n    print(\"You are now in \" + mode + \" mode.\")\ndef clear_history():",
         "detail": "build.lib.hey.cli",
         "documentation": {}
     },
     {
-        "label": "set_mode",
+        "label": "set_start_prompt",
         "kind": 2,
         "importPath": "build.lib.hey.cli",
         "description": "build.lib.hey.cli",
-        "peekOfCode": "def set_mode(mode, prompt_path):\n    clear()\n    app_state[\"start_prompt\"] = prompt_path\n    print(\"You are now in \" + mode + \" mode.\")\ndef clear_history():\n    # Clear history\n    file = open(paths[\"chat_history\"], \"w\")\n    file.close()\n    file = open(paths[\"commands_history\"], \"w\")\n    file.close()",
+        "peekOfCode": "def set_start_prompt(mode, prompt_text):\n    clear()\n    app_state[\"start_prompt\"] = prompt_text\n    print(\"You are now in \" + mode + \" mode.\")\ndef clear_history():\n    # Clear history\n    file = open(paths[\"chat_history\"], \"w\")\n    file.close()\n    file = open(paths[\"commands_history\"], \"w\")\n    file.close()",
         "detail": "build.lib.hey.cli",
         "documentation": {}
     },
@@ -909,7 +1332,7 @@
         "kind": 2,
         "importPath": "build.lib.hey.cli",
         "description": "build.lib.hey.cli",
-        "peekOfCode": "def you_input():\n    style = Style.from_dict({'': '#59acfb','you': '#59acfb',})\n    msg = [('class:you', 'You: ')]\n    print()\n    def get_rprompt():\n        text = session.default_buffer.text\n        return 'Tokens: ' + str(hey.aichat.get_tokens(text)) + \"/\" + str(hey.aichat.max_tokens())\n    user_input = session.prompt(msg, rprompt=get_rprompt, style=style, cursor=CursorShape.BEAM, auto_suggest=AutoSuggestFromHistory())\n    return user_input\ndef main():",
+        "peekOfCode": "def you_input():\n    style = Style.from_dict({'': '#59acfb','you': '#59acfb',})\n    msg = [('class:you', '❯ ')]\n    print()\n    def get_rprompt():\n        text = session.default_buffer.text\n        return 'Tokens: ' + str(hey.aichat.get_tokens(text)) + \"/\" + str(hey.aichat.max_tokens())\n    user_input = session.prompt(msg, rprompt=get_rprompt, style=style, cursor=CursorShape.BEAM, auto_suggest=AutoSuggestFromHistory())\n    return user_input\ndef main():",
         "detail": "build.lib.hey.cli",
         "documentation": {}
     },
@@ -918,7 +1341,16 @@
         "kind": 2,
         "importPath": "build.lib.hey.cli",
         "description": "build.lib.hey.cli",
-        "peekOfCode": "def main():\n    from hey.parse import parse_output\n    global prompt\n    init()\n    hey.aichat.find_openai_key()\n    user_input = get_initial_arguments()\n    if (user_input == None):\n        print(\"Hi! How can I help you?\")\n        user_input = you_input()\n    chat_output = None",
+        "peekOfCode": "def main():\n    from hey.parse import parse_output\n    global prompt\n    colorama.init()\n    hey.aichat.find_openai_key()\n    user_input = get_initial_arguments()\n    if (user_input == None):\n        print(\"Hi! How can I help you?\")\n        user_input = you_input()\n    chat_output = None",
+        "detail": "build.lib.hey.cli",
+        "documentation": {}
+    },
+    {
+        "label": "init",
+        "kind": 2,
+        "importPath": "build.lib.hey.cli",
+        "description": "build.lib.hey.cli",
+        "peekOfCode": "def init():\n    try:\n        hey.install.install()\n        # load_plugins(commands)\n        loaded_plugins = load_plugins({\n                'app_state': app_state,\n                'commands': commands,\n            },\n        )\n        main()",
         "detail": "build.lib.hey.cli",
         "documentation": {}
     },
@@ -972,7 +1404,7 @@
         "kind": 5,
         "importPath": "build.lib.hey.cli",
         "description": "build.lib.hey.cli",
-        "peekOfCode": "app_state = {\n    \"log_mode\": False,\n    \"start_prompt\": prompt_path(\"cli\"),\n}\nsession = PromptSession(history=FileHistory(paths[\"chat_history\"]))\ncmd_session = PromptSession(history=FileHistory(paths[\"commands_history\"]))\n__author__ = \"Lennard Voogdt\"\n__version__ = \"1.0.0\"\ndef get_initial_arguments():\n    # Parse arguments and make sure we have at least a single word",
+        "peekOfCode": "app_state = {\n    \"log_mode\": False,\n    \"start_prompt\": read_prompt(prompt_path(\"cli\")),\n}\nsession = PromptSession(history=FileHistory(paths[\"chat_history\"]))\ncmd_session = PromptSession(history=FileHistory(paths[\"commands_history\"]))\n__author__ = importlib.metadata.metadata(\"hey-gpt\")['Author']\n__version__ = importlib.metadata.version(\"hey-gpt\")\ndef get_initial_arguments():\n    # Parse arguments and make sure we have at least a single word",
         "detail": "build.lib.hey.cli",
         "documentation": {}
     },
@@ -981,7 +1413,7 @@
         "kind": 5,
         "importPath": "build.lib.hey.cli",
         "description": "build.lib.hey.cli",
-        "peekOfCode": "session = PromptSession(history=FileHistory(paths[\"chat_history\"]))\ncmd_session = PromptSession(history=FileHistory(paths[\"commands_history\"]))\n__author__ = \"Lennard Voogdt\"\n__version__ = \"1.0.0\"\ndef get_initial_arguments():\n    # Parse arguments and make sure we have at least a single word\n    if len(sys.argv) < 2:\n        return None\n    arguments = sys.argv[1:]\n    return \" \".join(arguments)",
+        "peekOfCode": "session = PromptSession(history=FileHistory(paths[\"chat_history\"]))\ncmd_session = PromptSession(history=FileHistory(paths[\"commands_history\"]))\n__author__ = importlib.metadata.metadata(\"hey-gpt\")['Author']\n__version__ = importlib.metadata.version(\"hey-gpt\")\ndef get_initial_arguments():\n    # Parse arguments and make sure we have at least a single word\n    if len(sys.argv) < 2:\n        return None\n    arguments = sys.argv[1:]\n    return \" \".join(arguments)",
         "detail": "build.lib.hey.cli",
         "documentation": {}
     },
@@ -990,7 +1422,7 @@
         "kind": 5,
         "importPath": "build.lib.hey.cli",
         "description": "build.lib.hey.cli",
-        "peekOfCode": "cmd_session = PromptSession(history=FileHistory(paths[\"commands_history\"]))\n__author__ = \"Lennard Voogdt\"\n__version__ = \"1.0.0\"\ndef get_initial_arguments():\n    # Parse arguments and make sure we have at least a single word\n    if len(sys.argv) < 2:\n        return None\n    arguments = sys.argv[1:]\n    return \" \".join(arguments)\ndef help():",
+        "peekOfCode": "cmd_session = PromptSession(history=FileHistory(paths[\"commands_history\"]))\n__author__ = importlib.metadata.metadata(\"hey-gpt\")['Author']\n__version__ = importlib.metadata.version(\"hey-gpt\")\ndef get_initial_arguments():\n    # Parse arguments and make sure we have at least a single word\n    if len(sys.argv) < 2:\n        return None\n    arguments = sys.argv[1:]\n    return \" \".join(arguments)\ndef help():",
         "detail": "build.lib.hey.cli",
         "documentation": {}
     },
@@ -999,7 +1431,7 @@
         "kind": 5,
         "importPath": "build.lib.hey.cli",
         "description": "build.lib.hey.cli",
-        "peekOfCode": "__author__ = \"Lennard Voogdt\"\n__version__ = \"1.0.0\"\ndef get_initial_arguments():\n    # Parse arguments and make sure we have at least a single word\n    if len(sys.argv) < 2:\n        return None\n    arguments = sys.argv[1:]\n    return \" \".join(arguments)\ndef help():\n    print(colored(\"Hey version \" + __version__, \"green\"))",
+        "peekOfCode": "__author__ = importlib.metadata.metadata(\"hey-gpt\")['Author']\n__version__ = importlib.metadata.version(\"hey-gpt\")\ndef get_initial_arguments():\n    # Parse arguments and make sure we have at least a single word\n    if len(sys.argv) < 2:\n        return None\n    arguments = sys.argv[1:]\n    return \" \".join(arguments)\ndef help():\n    print(colored(\"Hey version \" + __version__, \"green\"))",
         "detail": "build.lib.hey.cli",
         "documentation": {}
     },
@@ -1008,7 +1440,7 @@
         "kind": 5,
         "importPath": "build.lib.hey.cli",
         "description": "build.lib.hey.cli",
-        "peekOfCode": "__version__ = \"1.0.0\"\ndef get_initial_arguments():\n    # Parse arguments and make sure we have at least a single word\n    if len(sys.argv) < 2:\n        return None\n    arguments = sys.argv[1:]\n    return \" \".join(arguments)\ndef help():\n    print(colored(\"Hey version \" + __version__, \"green\"))\n    print (\"ChatGPT on the commandline\")",
+        "peekOfCode": "__version__ = importlib.metadata.version(\"hey-gpt\")\ndef get_initial_arguments():\n    # Parse arguments and make sure we have at least a single word\n    if len(sys.argv) < 2:\n        return None\n    arguments = sys.argv[1:]\n    return \" \".join(arguments)\ndef help():\n    print(colored(\"Hey version \" + __version__, \"green\"))\n    print (\"ChatGPT on the commandline\")",
         "detail": "build.lib.hey.cli",
         "documentation": {}
     },
@@ -1026,7 +1458,7 @@
         "kind": 5,
         "importPath": "build.lib.hey.cli",
         "description": "build.lib.hey.cli",
-        "peekOfCode": "loaded_plugins = []\nif __name__ == \"__main__\":  \n    try:\n        install()\n        # load_plugins(commands)\n        loaded_plugins = load_plugins({\n                'app_state': app_state,\n                'commands': commands,\n                'clear': clear,\n                'parse_prompt': parse_prompt,",
+        "peekOfCode": "loaded_plugins = []\ndef init():\n    try:\n        hey.install.install()\n        # load_plugins(commands)\n        loaded_plugins = load_plugins({\n                'app_state': app_state,\n                'commands': commands,\n            },\n        )",
         "detail": "build.lib.hey.cli",
         "documentation": {}
     },
@@ -1053,7 +1485,7 @@
         "kind": 2,
         "importPath": "build.lib.hey.install",
         "description": "build.lib.hey.install",
-        "peekOfCode": "def install(force=False):\n    # and copy them to ~/.hey/\n    home_path = os.path.expanduser(\"~\")\n    hey_path = os.path.join(home_path, \".hey\")\n    prompt_path = os.path.join(hey_path, \"prompt\")\n    program_path = os.path.dirname(__file__)\n    # Check for openai key\n    openai_key_path = os.path.join(home_path, \".openai.apikey\")\n    if not os.path.exists(openai_key_path):\n        print(colored(\"* No OpenAI key found at \" + openai_key_path, 'grey'))",
+        "peekOfCode": "def install(force=False):\n    # and copy them to ~/.hey/\n    home_path = os.path.expanduser(\"~\")\n    hey_path = os.path.join(home_path, \".hey\")\n    prompt_path = os.path.join(hey_path, \"prompt\")\n    program_path = os.path.dirname(__file__)\n    # Check for openai key\n    openai_key_path = os.path.join(home_path, \".openai.apikey\")\n    if not os.path.exists(openai_key_path):\n        print(colored(\"* No OpenAI key found at \" + openai_key_path, 'light_grey'))",
         "detail": "build.lib.hey.install",
         "documentation": {}
     },
@@ -1107,7 +1539,25 @@
         "kind": 2,
         "importPath": "build.lib.hey.prompt",
         "description": "build.lib.hey.prompt",
-        "peekOfCode": "def swallow_yaml(delayed_buffer, start = \"[yaml]\", end = \"[\\yaml]\", name = \"yaml\", skip = False):\n    delayed_buffer_joined = \"\".join(delayed_buffer)\n    if start in delayed_buffer_joined:\n        current[0] = 0\n        flush_buffer = delayed_buffer_joined.replace(start, \"\")\n        print(flush_buffer, end='', flush=True)\n        print (colored(\"> Reading \" + name + \"  \", \"green\"), end=\"\", flush=True)\n        # Clear the buffer by reference\n        delayed_buffer.clear()\n        skip = True",
+        "peekOfCode": "def swallow_yaml(delayed_buffer, start = \"[yaml]\", end = \"[\\yaml]\", name = \"yaml\", skip = False):\n    global has_yaml\n    delayed_buffer_joined = \"\".join(delayed_buffer)\n    if start in delayed_buffer_joined:\n        current[0] = 0\n        flush_buffer = delayed_buffer_joined.replace(start, \"\")\n        print(flush_buffer, end='', flush=True)\n        print (colored(\"> Reading \" + name + \"  \", \"green\"), end=\"\", flush=True)\n        # Clear the buffer by reference\n        delayed_buffer.clear()",
+        "detail": "build.lib.hey.prompt",
+        "documentation": {}
+    },
+    {
+        "label": "swallow_code",
+        "kind": 2,
+        "importPath": "build.lib.hey.prompt",
+        "description": "build.lib.hey.prompt",
+        "peekOfCode": "def swallow_code(delayed_buffer, start = \"```\", end = \"```\", lang = \"python\", skip = False):\n    delayed_buffer_joined = \"\".join(delayed_buffer)\n    if skip == True and end in delayed_buffer_joined:\n        flush_buffer = delayed_buffer_joined.replace(end, \"\")\n        lexer = get_lexer_by_name(lang, stripall=True)\n        formatter = TerminalFormatter()\n        result = highlight(flush_buffer, lexer, formatter)\n        print(result.strip(), end='', flush=True)\n        delayed_buffer.clear()\n        skip = False",
+        "detail": "build.lib.hey.prompt",
+        "documentation": {}
+    },
+    {
+        "label": "syntax_highlighter",
+        "kind": 2,
+        "importPath": "build.lib.hey.prompt",
+        "description": "build.lib.hey.prompt",
+        "peekOfCode": "def syntax_highlighter(delayed_buffer, skip = False):\n    global current_lang\n    current_lang_now = current_lang[0] if len(current_lang) > 0 else None\n    if current_lang_now != None:\n        langSkip = swallow_code(delayed_buffer, start = \"```\" + current_lang_now, end = \"```\", lang = current_lang_now, skip = skip)\n        if langSkip == False:\n            current_lang = []\n        return langSkip\n    else:\n        for lng in langs:",
         "detail": "build.lib.hey.prompt",
         "documentation": {}
     },
@@ -1116,7 +1566,7 @@
         "kind": 2,
         "importPath": "build.lib.hey.prompt",
         "description": "build.lib.hey.prompt",
-        "peekOfCode": "def parse_prompt(prompt_file, data = {}):\n    ## Find the executing directory (e.g. in case an alias is set)\n    ## So we can find the prompt.txt file\n    home_path = os.path.expanduser(\"~\")\n    hey_path = os.path.join(home_path, \".hey\")\n    shell = os.environ.get(\"SHELL\", \"powershell.exe\") \n    ## Load the prompt and prep it\n    pre_prompt = open(prompt_file,\"r\").read()\n    pre_prompt = pre_prompt.replace(\"{shell}\", shell)\n    for key in data:",
+        "peekOfCode": "def parse_prompt(prompt_text, data = {}):\n    ## Find the executing directory (e.g. in case an alias is set)\n    ## So we can find the prompt.txt file\n    home_path = os.path.expanduser(\"~\")\n    hey_path = os.path.join(home_path, \".hey\")\n    shell = os.environ.get(\"SHELL\", \"powershell.exe\") \n    ## Load the prompt and prep it\n    pre_prompt = prompt_text\n    # pre_prompt = open(prompt_file,\"r\").read()\n    pre_prompt = pre_prompt.replace(\"{shell}\", shell)",
         "detail": "build.lib.hey.prompt",
         "documentation": {}
     },
@@ -1125,7 +1575,7 @@
         "kind": 5,
         "importPath": "build.lib.hey.prompt",
         "description": "build.lib.hey.prompt",
-        "peekOfCode": "current = [0]\nwaiter = ['.', '..', ' ', ' ', ' ', ' ']\ndef swallow_yaml(delayed_buffer, start = \"[yaml]\", end = \"[\\yaml]\", name = \"yaml\", skip = False):\n    delayed_buffer_joined = \"\".join(delayed_buffer)\n    if start in delayed_buffer_joined:\n        current[0] = 0\n        flush_buffer = delayed_buffer_joined.replace(start, \"\")\n        print(flush_buffer, end='', flush=True)\n        print (colored(\"> Reading \" + name + \"  \", \"green\"), end=\"\", flush=True)\n        # Clear the buffer by reference",
+        "peekOfCode": "current = [0]\nwaiter = ['.', '..', ' ', ' ', ' ', ' ']\nhas_yaml = False\ndef swallow_yaml(delayed_buffer, start = \"[yaml]\", end = \"[\\yaml]\", name = \"yaml\", skip = False):\n    global has_yaml\n    delayed_buffer_joined = \"\".join(delayed_buffer)\n    if start in delayed_buffer_joined:\n        current[0] = 0\n        flush_buffer = delayed_buffer_joined.replace(start, \"\")\n        print(flush_buffer, end='', flush=True)",
         "detail": "build.lib.hey.prompt",
         "documentation": {}
     },
@@ -1134,7 +1584,34 @@
         "kind": 5,
         "importPath": "build.lib.hey.prompt",
         "description": "build.lib.hey.prompt",
-        "peekOfCode": "waiter = ['.', '..', ' ', ' ', ' ', ' ']\ndef swallow_yaml(delayed_buffer, start = \"[yaml]\", end = \"[\\yaml]\", name = \"yaml\", skip = False):\n    delayed_buffer_joined = \"\".join(delayed_buffer)\n    if start in delayed_buffer_joined:\n        current[0] = 0\n        flush_buffer = delayed_buffer_joined.replace(start, \"\")\n        print(flush_buffer, end='', flush=True)\n        print (colored(\"> Reading \" + name + \"  \", \"green\"), end=\"\", flush=True)\n        # Clear the buffer by reference\n        delayed_buffer.clear()",
+        "peekOfCode": "waiter = ['.', '..', ' ', ' ', ' ', ' ']\nhas_yaml = False\ndef swallow_yaml(delayed_buffer, start = \"[yaml]\", end = \"[\\yaml]\", name = \"yaml\", skip = False):\n    global has_yaml\n    delayed_buffer_joined = \"\".join(delayed_buffer)\n    if start in delayed_buffer_joined:\n        current[0] = 0\n        flush_buffer = delayed_buffer_joined.replace(start, \"\")\n        print(flush_buffer, end='', flush=True)\n        print (colored(\"> Reading \" + name + \"  \", \"green\"), end=\"\", flush=True)",
+        "detail": "build.lib.hey.prompt",
+        "documentation": {}
+    },
+    {
+        "label": "has_yaml",
+        "kind": 5,
+        "importPath": "build.lib.hey.prompt",
+        "description": "build.lib.hey.prompt",
+        "peekOfCode": "has_yaml = False\ndef swallow_yaml(delayed_buffer, start = \"[yaml]\", end = \"[\\yaml]\", name = \"yaml\", skip = False):\n    global has_yaml\n    delayed_buffer_joined = \"\".join(delayed_buffer)\n    if start in delayed_buffer_joined:\n        current[0] = 0\n        flush_buffer = delayed_buffer_joined.replace(start, \"\")\n        print(flush_buffer, end='', flush=True)\n        print (colored(\"> Reading \" + name + \"  \", \"green\"), end=\"\", flush=True)\n        # Clear the buffer by reference",
+        "detail": "build.lib.hey.prompt",
+        "documentation": {}
+    },
+    {
+        "label": "langs",
+        "kind": 5,
+        "importPath": "build.lib.hey.prompt",
+        "description": "build.lib.hey.prompt",
+        "peekOfCode": "langs = [\"python\", \"bash\", \"json\", \"javascript\", \"typescript\", \"html\", \"css\", \"php\", \"java\", \"c\", \"cpp\", \"csharp\", \"go\", \"rust\", \"swift\", \"kotlin\", \"ruby\", \"perl\", \"powershell\", \"sql\", \"shell\", \"dockerfile\", \"makefile\", \"ini\", \"toml\", \"xml\", \"diff\", \"markdown\", \"latex\", \"plaintext\"]\ncurrent_lang = []\ndef swallow_code(delayed_buffer, start = \"```\", end = \"```\", lang = \"python\", skip = False):\n    delayed_buffer_joined = \"\".join(delayed_buffer)\n    if skip == True and end in delayed_buffer_joined:\n        flush_buffer = delayed_buffer_joined.replace(end, \"\")\n        lexer = get_lexer_by_name(lang, stripall=True)\n        formatter = TerminalFormatter()\n        result = highlight(flush_buffer, lexer, formatter)\n        print(result.strip(), end='', flush=True)",
+        "detail": "build.lib.hey.prompt",
+        "documentation": {}
+    },
+    {
+        "label": "current_lang",
+        "kind": 5,
+        "importPath": "build.lib.hey.prompt",
+        "description": "build.lib.hey.prompt",
+        "peekOfCode": "current_lang = []\ndef swallow_code(delayed_buffer, start = \"```\", end = \"```\", lang = \"python\", skip = False):\n    delayed_buffer_joined = \"\".join(delayed_buffer)\n    if skip == True and end in delayed_buffer_joined:\n        flush_buffer = delayed_buffer_joined.replace(end, \"\")\n        lexer = get_lexer_by_name(lang, stripall=True)\n        formatter = TerminalFormatter()\n        result = highlight(flush_buffer, lexer, formatter)\n        print(result.strip(), end='', flush=True)\n        delayed_buffer.clear()",
         "detail": "build.lib.hey.prompt",
         "documentation": {}
     },
@@ -1143,7 +1620,7 @@
         "kind": 2,
         "importPath": "hey.plugins.chat.plugin",
         "description": "hey.plugins.chat.plugin",
-        "peekOfCode": "def load(hey):\n    hey['commands']['chat'] = {\n        \"description\": \"This mode is just like using normal ChatGPT\",\n        \"function\": lambda: hey['set_mode'](\"chat\", script_path + \"/prompt.txt\"),\n    }",
+        "peekOfCode": "def load(hey):\n    hey['commands']['chat'] = {\n        \"description\": \"This mode is just like using normal ChatGPT\",\n        \"function\": lambda: set_start_prompt(\"chat\", read_prompt(script_path + \"/prompt.txt\")),\n    }",
         "detail": "hey.plugins.chat.plugin",
         "documentation": {}
     },
@@ -1152,7 +1629,7 @@
         "kind": 5,
         "importPath": "hey.plugins.chat.plugin",
         "description": "hey.plugins.chat.plugin",
-        "peekOfCode": "script_path = os.path.dirname(os.path.realpath(__file__))\ndef load(hey):\n    hey['commands']['chat'] = {\n        \"description\": \"This mode is just like using normal ChatGPT\",\n        \"function\": lambda: hey['set_mode'](\"chat\", script_path + \"/prompt.txt\"),\n    }",
+        "peekOfCode": "script_path = os.path.dirname(os.path.realpath(__file__))\ndef load(hey):\n    hey['commands']['chat'] = {\n        \"description\": \"This mode is just like using normal ChatGPT\",\n        \"function\": lambda: set_start_prompt(\"chat\", read_prompt(script_path + \"/prompt.txt\")),\n    }",
         "detail": "hey.plugins.chat.plugin",
         "documentation": {}
     },
@@ -1161,7 +1638,7 @@
         "kind": 2,
         "importPath": "hey.plugins.cli.plugin",
         "description": "hey.plugins.cli.plugin",
-        "peekOfCode": "def load(hey):\n    hey['commands']['cli'] = {\n        \"description\": \"This allows for receiving commands, files and more\",\n        \"function\": lambda: hey['set_mode'](\"cli\", script_path + \"/prompt.txt\"),\n    }",
+        "peekOfCode": "def load(hey):\n    hey['commands']['cli'] = {\n        \"description\": \"This allows for receiving commands, files and more\",\n        \"function\": lambda: set_start_prompt(\"cli\", read_prompt(script_path + \"/prompt.txt\")),\n    }",
         "detail": "hey.plugins.cli.plugin",
         "documentation": {}
     },
@@ -1170,8 +1647,62 @@
         "kind": 5,
         "importPath": "hey.plugins.cli.plugin",
         "description": "hey.plugins.cli.plugin",
-        "peekOfCode": "script_path = os.path.dirname(os.path.realpath(__file__))\ndef load(hey):\n    hey['commands']['cli'] = {\n        \"description\": \"This allows for receiving commands, files and more\",\n        \"function\": lambda: hey['set_mode'](\"cli\", script_path + \"/prompt.txt\"),\n    }",
+        "peekOfCode": "script_path = os.path.dirname(os.path.realpath(__file__))\ndef load(hey):\n    hey['commands']['cli'] = {\n        \"description\": \"This allows for receiving commands, files and more\",\n        \"function\": lambda: set_start_prompt(\"cli\", read_prompt(script_path + \"/prompt.txt\")),\n    }",
         "detail": "hey.plugins.cli.plugin",
+        "documentation": {}
+    },
+    {
+        "label": "set_lang",
+        "kind": 2,
+        "importPath": "hey.plugins.lang.plugin",
+        "description": "hey.plugins.lang.plugin",
+        "peekOfCode": "def set_lang():\n    language = session.prompt(\"Enter a language: \")\n    prompt = parse_prompt(read_prompt(script_path + \"/prompt.txt\"), {\n        \"language\": language\n    })\n    set_start_prompt(language, prompt)\ndef load(hey):\n    hey['commands']['lang'] = {\n        \"description\": \"Set the prompt to a specific language\",\n        \"function\": set_lang",
+        "detail": "hey.plugins.lang.plugin",
+        "documentation": {}
+    },
+    {
+        "label": "load",
+        "kind": 2,
+        "importPath": "hey.plugins.lang.plugin",
+        "description": "hey.plugins.lang.plugin",
+        "peekOfCode": "def load(hey):\n    hey['commands']['lang'] = {\n        \"description\": \"Set the prompt to a specific language\",\n        \"function\": set_lang\n    }",
+        "detail": "hey.plugins.lang.plugin",
+        "documentation": {}
+    },
+    {
+        "label": "home_path",
+        "kind": 5,
+        "importPath": "hey.plugins.lang.plugin",
+        "description": "hey.plugins.lang.plugin",
+        "peekOfCode": "home_path = os.path.expanduser(\"~\")  \nuser_path = home_path + \"/.hey\"\nscript_path = os.path.dirname(os.path.realpath(__file__))\nsession = PromptSession(history=FileHistory(user_path + \"/lang_history\"))\ndef set_lang():\n    language = session.prompt(\"Enter a language: \")\n    prompt = parse_prompt(read_prompt(script_path + \"/prompt.txt\"), {\n        \"language\": language\n    })\n    set_start_prompt(language, prompt)",
+        "detail": "hey.plugins.lang.plugin",
+        "documentation": {}
+    },
+    {
+        "label": "user_path",
+        "kind": 5,
+        "importPath": "hey.plugins.lang.plugin",
+        "description": "hey.plugins.lang.plugin",
+        "peekOfCode": "user_path = home_path + \"/.hey\"\nscript_path = os.path.dirname(os.path.realpath(__file__))\nsession = PromptSession(history=FileHistory(user_path + \"/lang_history\"))\ndef set_lang():\n    language = session.prompt(\"Enter a language: \")\n    prompt = parse_prompt(read_prompt(script_path + \"/prompt.txt\"), {\n        \"language\": language\n    })\n    set_start_prompt(language, prompt)\ndef load(hey):",
+        "detail": "hey.plugins.lang.plugin",
+        "documentation": {}
+    },
+    {
+        "label": "script_path",
+        "kind": 5,
+        "importPath": "hey.plugins.lang.plugin",
+        "description": "hey.plugins.lang.plugin",
+        "peekOfCode": "script_path = os.path.dirname(os.path.realpath(__file__))\nsession = PromptSession(history=FileHistory(user_path + \"/lang_history\"))\ndef set_lang():\n    language = session.prompt(\"Enter a language: \")\n    prompt = parse_prompt(read_prompt(script_path + \"/prompt.txt\"), {\n        \"language\": language\n    })\n    set_start_prompt(language, prompt)\ndef load(hey):\n    hey['commands']['lang'] = {",
+        "detail": "hey.plugins.lang.plugin",
+        "documentation": {}
+    },
+    {
+        "label": "session",
+        "kind": 5,
+        "importPath": "hey.plugins.lang.plugin",
+        "description": "hey.plugins.lang.plugin",
+        "peekOfCode": "session = PromptSession(history=FileHistory(user_path + \"/lang_history\"))\ndef set_lang():\n    language = session.prompt(\"Enter a language: \")\n    prompt = parse_prompt(read_prompt(script_path + \"/prompt.txt\"), {\n        \"language\": language\n    })\n    set_start_prompt(language, prompt)\ndef load(hey):\n    hey['commands']['lang'] = {\n        \"description\": \"Set the prompt to a specific language\",",
+        "detail": "hey.plugins.lang.plugin",
         "documentation": {}
     },
     {
@@ -1179,7 +1710,7 @@
         "kind": 2,
         "importPath": "hey.plugins.python.plugin",
         "description": "hey.plugins.python.plugin",
-        "peekOfCode": "def load(hey):\n    set_mode = hey['set_mode']\n    # Load the plugin\n    hey['commands']['python'] = {\n        \"description\": \"Python expert prompt\",\n        \"function\": lambda: set_mode(\"python\", script_path + \"/prompt.txt\"),\n    }",
+        "peekOfCode": "def load(hey):\n    # Load the plugin\n    hey['commands']['python'] = {\n        \"description\": \"Python expert prompt\",\n        \"function\": lambda: set_start_prompt(\"python\", read_prompt(script_path + \"/prompt.txt\")),\n    }",
         "detail": "hey.plugins.python.plugin",
         "documentation": {}
     },
@@ -1188,7 +1719,7 @@
         "kind": 5,
         "importPath": "hey.plugins.python.plugin",
         "description": "hey.plugins.python.plugin",
-        "peekOfCode": "script_path = os.path.dirname(os.path.realpath(__file__))\ndef load(hey):\n    set_mode = hey['set_mode']\n    # Load the plugin\n    hey['commands']['python'] = {\n        \"description\": \"Python expert prompt\",\n        \"function\": lambda: set_mode(\"python\", script_path + \"/prompt.txt\"),\n    }",
+        "peekOfCode": "script_path = os.path.dirname(os.path.realpath(__file__))\ndef load(hey):\n    # Load the plugin\n    hey['commands']['python'] = {\n        \"description\": \"Python expert prompt\",\n        \"function\": lambda: set_start_prompt(\"python\", read_prompt(script_path + \"/prompt.txt\")),\n    }",
         "detail": "hey.plugins.python.plugin",
         "documentation": {}
     },
@@ -1251,7 +1782,7 @@
         "kind": 2,
         "importPath": "hey.aichat",
         "description": "hey.aichat",
-        "peekOfCode": "def max_tokens():\n    return 4096\ndef count_tokens(text):\n    return len(encoding.encode(text))\ndef get_tokens(additional_tokens = \"\"):\n    total = count_tokens(additional_tokens)\n    for message in messages:\n        total += count_tokens(message[\"content\"])\n    return total\ndef get_tokens_available(additional_tokens = \"\"):",
+        "peekOfCode": "def max_tokens():\n    return 4096\ndef count_tokens(text):\n    return len(encoding.encode(text))\ndef get_tokens(additional_tokens = \"\"):\n    total = count_tokens(additional_tokens)\n    for message in messages:\n        total += count_tokens(message[\"content\"])\n    return total\ndef get_dollars(additional_tokens):",
         "detail": "hey.aichat",
         "documentation": {}
     },
@@ -1260,7 +1791,7 @@
         "kind": 2,
         "importPath": "hey.aichat",
         "description": "hey.aichat",
-        "peekOfCode": "def count_tokens(text):\n    return len(encoding.encode(text))\ndef get_tokens(additional_tokens = \"\"):\n    total = count_tokens(additional_tokens)\n    for message in messages:\n        total += count_tokens(message[\"content\"])\n    return total\ndef get_tokens_available(additional_tokens = \"\"):\n    return max_tokens() - get_tokens(additional_tokens)\ndef find_openai_key():",
+        "peekOfCode": "def count_tokens(text):\n    return len(encoding.encode(text))\ndef get_tokens(additional_tokens = \"\"):\n    total = count_tokens(additional_tokens)\n    for message in messages:\n        total += count_tokens(message[\"content\"])\n    return total\ndef get_dollars(additional_tokens):\n    return get_tokens(additional_tokens) / 1000 * 0.002\ndef get_tokens_available(additional_tokens = \"\"):",
         "detail": "hey.aichat",
         "documentation": {}
     },
@@ -1269,7 +1800,16 @@
         "kind": 2,
         "importPath": "hey.aichat",
         "description": "hey.aichat",
-        "peekOfCode": "def get_tokens(additional_tokens = \"\"):\n    total = count_tokens(additional_tokens)\n    for message in messages:\n        total += count_tokens(message[\"content\"])\n    return total\ndef get_tokens_available(additional_tokens = \"\"):\n    return max_tokens() - get_tokens(additional_tokens)\ndef find_openai_key():\n    home_path = os.path.expanduser(\"~\")    \n    openai.api_key_path = os.path.join(home_path,\".openai.apikey\")",
+        "peekOfCode": "def get_tokens(additional_tokens = \"\"):\n    total = count_tokens(additional_tokens)\n    for message in messages:\n        total += count_tokens(message[\"content\"])\n    return total\ndef get_dollars(additional_tokens):\n    return get_tokens(additional_tokens) / 1000 * 0.002\ndef get_tokens_available(additional_tokens = \"\"):\n    return max_tokens() - get_tokens(additional_tokens)\ndef find_openai_key():",
+        "detail": "hey.aichat",
+        "documentation": {}
+    },
+    {
+        "label": "get_dollars",
+        "kind": 2,
+        "importPath": "hey.aichat",
+        "description": "hey.aichat",
+        "peekOfCode": "def get_dollars(additional_tokens):\n    return get_tokens(additional_tokens) / 1000 * 0.002\ndef get_tokens_available(additional_tokens = \"\"):\n    return max_tokens() - get_tokens(additional_tokens)\ndef find_openai_key():\n    home_path = os.path.expanduser(\"~\")    \n    openai.api_key_path = os.path.join(home_path,\".openai.apikey\")\ndef clear():\n    global messages\n    messages.clear()",
         "detail": "hey.aichat",
         "documentation": {}
     },
@@ -1278,7 +1818,7 @@
         "kind": 2,
         "importPath": "hey.aichat",
         "description": "hey.aichat",
-        "peekOfCode": "def get_tokens_available(additional_tokens = \"\"):\n    return max_tokens() - get_tokens(additional_tokens)\ndef find_openai_key():\n    home_path = os.path.expanduser(\"~\")    \n    openai.api_key_path = os.path.join(home_path,\".openai.apikey\")\ndef clear():\n    messages.clear()\ndef chat(message, assistant_message = None):\n    if assistant_message:\n        messages.append({\"role\": \"assistant\", \"content\": assistant_message})",
+        "peekOfCode": "def get_tokens_available(additional_tokens = \"\"):\n    return max_tokens() - get_tokens(additional_tokens)\ndef find_openai_key():\n    home_path = os.path.expanduser(\"~\")    \n    openai.api_key_path = os.path.join(home_path,\".openai.apikey\")\ndef clear():\n    global messages\n    messages.clear()\n    messages = [\n        {\"role\": \"system\", \"content\": \"You are called hey. You can help with questions about the command line, programming, or general questions.\"}",
         "detail": "hey.aichat",
         "documentation": {}
     },
@@ -1287,7 +1827,7 @@
         "kind": 2,
         "importPath": "hey.aichat",
         "description": "hey.aichat",
-        "peekOfCode": "def find_openai_key():\n    home_path = os.path.expanduser(\"~\")    \n    openai.api_key_path = os.path.join(home_path,\".openai.apikey\")\ndef clear():\n    messages.clear()\ndef chat(message, assistant_message = None):\n    if assistant_message:\n        messages.append({\"role\": \"assistant\", \"content\": assistant_message})\n    messages.append({\"role\": \"user\", \"content\": message})\n    response = openai.ChatCompletion.create(",
+        "peekOfCode": "def find_openai_key():\n    home_path = os.path.expanduser(\"~\")    \n    openai.api_key_path = os.path.join(home_path,\".openai.apikey\")\ndef clear():\n    global messages\n    messages.clear()\n    messages = [\n        {\"role\": \"system\", \"content\": \"You are called hey. You can help with questions about the command line, programming, or general questions.\"}\n    ]\ndef chat(message, assistant_message = None):",
         "detail": "hey.aichat",
         "documentation": {}
     },
@@ -1296,7 +1836,7 @@
         "kind": 2,
         "importPath": "hey.aichat",
         "description": "hey.aichat",
-        "peekOfCode": "def clear():\n    messages.clear()\ndef chat(message, assistant_message = None):\n    if assistant_message:\n        messages.append({\"role\": \"assistant\", \"content\": assistant_message})\n    messages.append({\"role\": \"user\", \"content\": message})\n    response = openai.ChatCompletion.create(\n        model=\"gpt-3.5-turbo\",\n        messages=messages,\n        temperature=0,",
+        "peekOfCode": "def clear():\n    global messages\n    messages.clear()\n    messages = [\n        {\"role\": \"system\", \"content\": \"You are called hey. You can help with questions about the command line, programming, or general questions.\"}\n    ]\ndef chat(message, assistant_message = None):\n    if assistant_message:\n        messages.append({\"role\": \"assistant\", \"content\": assistant_message})\n    messages.append({\"role\": \"user\", \"content\": message})",
         "detail": "hey.aichat",
         "documentation": {}
     },
@@ -1305,7 +1845,16 @@
         "kind": 2,
         "importPath": "hey.aichat",
         "description": "hey.aichat",
-        "peekOfCode": "def chat(message, assistant_message = None):\n    if assistant_message:\n        messages.append({\"role\": \"assistant\", \"content\": assistant_message})\n    messages.append({\"role\": \"user\", \"content\": message})\n    response = openai.ChatCompletion.create(\n        model=\"gpt-3.5-turbo\",\n        messages=messages,\n        temperature=0,\n        max_tokens=1000,\n        stream=True",
+        "peekOfCode": "def chat(message, assistant_message = None):\n    if assistant_message:\n        messages.append({\"role\": \"assistant\", \"content\": assistant_message})\n    messages.append({\"role\": \"user\", \"content\": message})\n    # print(messages)\n    try:\n        response = openai.ChatCompletion.create(\n            model=\"gpt-3.5-turbo\",\n            messages=messages,\n            temperature=0,",
+        "detail": "hey.aichat",
+        "documentation": {}
+    },
+    {
+        "label": "print_output",
+        "kind": 2,
+        "importPath": "hey.aichat",
+        "description": "hey.aichat",
+        "peekOfCode": "def print_output(output, finished=False):\n    global highlight_buffer\n    global highlight_index\n    global start_colorizing\n    global output_by_line\n    # global start_colorizing_line\n    if output == None:\n        return\n    def line_done(line):\n        global output_by_line",
         "detail": "hey.aichat",
         "documentation": {}
     },
@@ -1314,7 +1863,7 @@
         "kind": 5,
         "importPath": "hey.aichat",
         "description": "hey.aichat",
-        "peekOfCode": "messages = []\n# Count tokens with tiktoken\nencoding = tiktoken.encoding_for_model('gpt-3.5-turbo')\ndef max_tokens():\n    return 4096\ndef count_tokens(text):\n    return len(encoding.encode(text))\ndef get_tokens(additional_tokens = \"\"):\n    total = count_tokens(additional_tokens)\n    for message in messages:",
+        "peekOfCode": "messages = [\n    {\"role\": \"system\", \"content\": \"You are called hey. You can help with questions about the command line, programming, or general questions.\"}\n]\n# Count tokens with tiktoken\nencoding = tiktoken.encoding_for_model('gpt-3.5-turbo')\ndef max_tokens():\n    return 4096\ndef count_tokens(text):\n    return len(encoding.encode(text))\ndef get_tokens(additional_tokens = \"\"):",
         "detail": "hey.aichat",
         "documentation": {}
     },
@@ -1328,11 +1877,56 @@
         "documentation": {}
     },
     {
+        "label": "highlight_buffer",
+        "kind": 5,
+        "importPath": "hey.aichat",
+        "description": "hey.aichat",
+        "peekOfCode": "highlight_buffer = ['']\nhighlight_index = 0\nstart_colorizing = False\n# start_colorizing_line = 0\noutput_by_line = False\n# items = [\"It\", \" \", \"is \", \"a \", \"beautiful \", \"day \", \"\\n\", \"```\", \"python\\n\", \"hello = 123\", \"``\", \"`\\n\", \"Hmh\"]\n# items = [\"It\", \" \", \"is \", \"a \", \"beautiful \", \"day \", \"\\n\", \"```\", \"python\", \"hello = 123\", \"``\", \"`\\n\", \"Hmh\"]\ndef print_output(output, finished=False):\n    global highlight_buffer\n    global highlight_index",
+        "detail": "hey.aichat",
+        "documentation": {}
+    },
+    {
+        "label": "highlight_index",
+        "kind": 5,
+        "importPath": "hey.aichat",
+        "description": "hey.aichat",
+        "peekOfCode": "highlight_index = 0\nstart_colorizing = False\n# start_colorizing_line = 0\noutput_by_line = False\n# items = [\"It\", \" \", \"is \", \"a \", \"beautiful \", \"day \", \"\\n\", \"```\", \"python\\n\", \"hello = 123\", \"``\", \"`\\n\", \"Hmh\"]\n# items = [\"It\", \" \", \"is \", \"a \", \"beautiful \", \"day \", \"\\n\", \"```\", \"python\", \"hello = 123\", \"``\", \"`\\n\", \"Hmh\"]\ndef print_output(output, finished=False):\n    global highlight_buffer\n    global highlight_index\n    global start_colorizing",
+        "detail": "hey.aichat",
+        "documentation": {}
+    },
+    {
+        "label": "start_colorizing",
+        "kind": 5,
+        "importPath": "hey.aichat",
+        "description": "hey.aichat",
+        "peekOfCode": "start_colorizing = False\n# start_colorizing_line = 0\noutput_by_line = False\n# items = [\"It\", \" \", \"is \", \"a \", \"beautiful \", \"day \", \"\\n\", \"```\", \"python\\n\", \"hello = 123\", \"``\", \"`\\n\", \"Hmh\"]\n# items = [\"It\", \" \", \"is \", \"a \", \"beautiful \", \"day \", \"\\n\", \"```\", \"python\", \"hello = 123\", \"``\", \"`\\n\", \"Hmh\"]\ndef print_output(output, finished=False):\n    global highlight_buffer\n    global highlight_index\n    global start_colorizing\n    global output_by_line",
+        "detail": "hey.aichat",
+        "documentation": {}
+    },
+    {
+        "label": "output_by_line",
+        "kind": 5,
+        "importPath": "hey.aichat",
+        "description": "hey.aichat",
+        "peekOfCode": "output_by_line = False\n# items = [\"It\", \" \", \"is \", \"a \", \"beautiful \", \"day \", \"\\n\", \"```\", \"python\\n\", \"hello = 123\", \"``\", \"`\\n\", \"Hmh\"]\n# items = [\"It\", \" \", \"is \", \"a \", \"beautiful \", \"day \", \"\\n\", \"```\", \"python\", \"hello = 123\", \"``\", \"`\\n\", \"Hmh\"]\ndef print_output(output, finished=False):\n    global highlight_buffer\n    global highlight_index\n    global start_colorizing\n    global output_by_line\n    # global start_colorizing_line\n    if output == None:",
+        "detail": "hey.aichat",
+        "documentation": {}
+    },
+    {
         "label": "prompt_path",
         "kind": 2,
         "importPath": "hey.cli",
         "description": "hey.cli",
         "peekOfCode": "def prompt_path(name):\n    # Check for the user_dir\n    # Check ~/.hey/prompt/name.txt\n    if os.path.exists(user_path + \"/prompt/\" + name + \".txt\"):\n        return user_path + \"/prompt/\" + name + \".txt\"\n    # Check ~/.hey/plugins/name/prompt.txt\n    if os.path.exists(user_path + \"/plugins/\" + name + \"/prompt.txt\"):\n        return user_path + \"/plugins/\" + name + \"/prompt.txt\"\n    # Check program_path/prompt/name.txt\n    if os.path.exists(program_path + \"/prompt/\" + name + \".txt\"):",
+        "detail": "hey.cli",
+        "documentation": {}
+    },
+    {
+        "label": "read_prompt",
+        "kind": 2,
+        "importPath": "hey.cli",
+        "description": "hey.cli",
+        "peekOfCode": "def read_prompt(path):\n    return open(path,\"r\").read()\napp_state = {\n    \"log_mode\": False,\n    \"start_prompt\": read_prompt(prompt_path(\"cli\")),\n}\nsession = PromptSession(history=FileHistory(paths[\"chat_history\"]))\ncmd_session = PromptSession(history=FileHistory(paths[\"commands_history\"]))\n__author__ = importlib.metadata.metadata(\"hey-gpt\")['Author']\n__version__ = importlib.metadata.version(\"hey-gpt\")",
         "detail": "hey.cli",
         "documentation": {}
     },
@@ -1395,7 +1989,7 @@
         "kind": 2,
         "importPath": "hey.cli",
         "description": "hey.cli",
-        "peekOfCode": "def show_log():\n    if app_state[\"log_mode\"] == True:\n        file = open(paths[\"log_file\"], \"r\")\n        print(file.read())\n        file.close()\n# def set_mode(mode):\ndef mode(mode):\n    if (mode == \"cli\"):\n        set_mode(\"cli\", prompt_path(\"cli\"))\n    elif (mode == \"chat\"):",
+        "peekOfCode": "def show_log():\n    if app_state[\"log_mode\"] == True:\n        file = open(paths[\"log_file\"], \"r\")\n        print(file.read())\n        file.close()\n# def set_start_prompt(mode):\ndef mode(mode):\n    if (mode == \"cli\"):\n        set_start_prompt(\"cli\", read_prompt(prompt_path(\"cli\")))\n    elif (mode == \"chat\"):",
         "detail": "hey.cli",
         "documentation": {}
     },
@@ -1404,16 +1998,16 @@
         "kind": 2,
         "importPath": "hey.cli",
         "description": "hey.cli",
-        "peekOfCode": "def mode(mode):\n    if (mode == \"cli\"):\n        set_mode(\"cli\", prompt_path(\"cli\"))\n    elif (mode == \"chat\"):\n        set_mode(\"chat\", prompt_path(\"chat\"))\ndef set_mode(mode, prompt_path):\n    clear()\n    app_state[\"start_prompt\"] = prompt_path\n    print(\"You are now in \" + mode + \" mode.\")\ndef clear_history():",
+        "peekOfCode": "def mode(mode):\n    if (mode == \"cli\"):\n        set_start_prompt(\"cli\", read_prompt(prompt_path(\"cli\")))\n    elif (mode == \"chat\"):\n        set_start_prompt(\"chat\", read_prompt(prompt_path(\"chat\")))\ndef set_start_prompt(mode, prompt_text):\n    clear()\n    app_state[\"start_prompt\"] = prompt_text\n    print(\"You are now in \" + mode + \" mode.\")\ndef clear_history():",
         "detail": "hey.cli",
         "documentation": {}
     },
     {
-        "label": "set_mode",
+        "label": "set_start_prompt",
         "kind": 2,
         "importPath": "hey.cli",
         "description": "hey.cli",
-        "peekOfCode": "def set_mode(mode, prompt_path):\n    clear()\n    app_state[\"start_prompt\"] = prompt_path\n    print(\"You are now in \" + mode + \" mode.\")\ndef clear_history():\n    # Clear history\n    file = open(paths[\"chat_history\"], \"w\")\n    file.close()\n    file = open(paths[\"commands_history\"], \"w\")\n    file.close()",
+        "peekOfCode": "def set_start_prompt(mode, prompt_text):\n    clear()\n    app_state[\"start_prompt\"] = prompt_text\n    print(\"You are now in \" + mode + \" mode.\")\ndef clear_history():\n    # Clear history\n    file = open(paths[\"chat_history\"], \"w\")\n    file.close()\n    file = open(paths[\"commands_history\"], \"w\")\n    file.close()",
         "detail": "hey.cli",
         "documentation": {}
     },
@@ -1449,7 +2043,7 @@
         "kind": 2,
         "importPath": "hey.cli",
         "description": "hey.cli",
-        "peekOfCode": "def you_input():\n    style = Style.from_dict({'': '#59acfb','you': '#59acfb',})\n    msg = [('class:you', 'You: ')]\n    print()\n    def get_rprompt():\n        text = session.default_buffer.text\n        return 'Tokens: ' + str(hey.aichat.get_tokens(text)) + \"/\" + str(hey.aichat.max_tokens())\n    user_input = session.prompt(msg, rprompt=get_rprompt, style=style, cursor=CursorShape.BEAM, auto_suggest=AutoSuggestFromHistory())\n    return user_input\ndef main():",
+        "peekOfCode": "def you_input():\n    style = Style.from_dict({'': '#59acfb','you': '#59acfb',})\n    msg = [('class:you', '❯ ')]\n    print()\n    def get_rprompt():\n        text = session.default_buffer.text\n        return 'Tokens: ' + str(hey.aichat.get_tokens(text)) + \"/\" + str(hey.aichat.max_tokens())\n    user_input = session.prompt(msg, rprompt=get_rprompt, style=style, cursor=CursorShape.BEAM, auto_suggest=AutoSuggestFromHistory())\n    return user_input\ndef main():",
         "detail": "hey.cli",
         "documentation": {}
     },
@@ -1458,7 +2052,16 @@
         "kind": 2,
         "importPath": "hey.cli",
         "description": "hey.cli",
-        "peekOfCode": "def main():\n    from hey.parse import parse_output\n    global prompt\n    init()\n    hey.aichat.find_openai_key()\n    user_input = get_initial_arguments()\n    if (user_input == None):\n        print(\"Hi! How can I help you?\")\n        user_input = you_input()\n    chat_output = None",
+        "peekOfCode": "def main():\n    from hey.parse import parse_output\n    global prompt\n    colorama.init()\n    hey.aichat.find_openai_key()\n    user_input = get_initial_arguments()\n    if (user_input == None):\n        print(\"Hi! How can I help you?\")\n        user_input = you_input()\n    chat_output = None",
+        "detail": "hey.cli",
+        "documentation": {}
+    },
+    {
+        "label": "init",
+        "kind": 2,
+        "importPath": "hey.cli",
+        "description": "hey.cli",
+        "peekOfCode": "def init():\n    try:\n        hey.install.install()\n        # load_plugins(commands)\n        loaded_plugins = load_plugins({\n                'app_state': app_state,\n                'commands': commands,\n            },\n        )\n        main()",
         "detail": "hey.cli",
         "documentation": {}
     },
@@ -1512,7 +2115,7 @@
         "kind": 5,
         "importPath": "hey.cli",
         "description": "hey.cli",
-        "peekOfCode": "app_state = {\n    \"log_mode\": False,\n    \"start_prompt\": prompt_path(\"cli\"),\n}\nsession = PromptSession(history=FileHistory(paths[\"chat_history\"]))\ncmd_session = PromptSession(history=FileHistory(paths[\"commands_history\"]))\n__author__ = \"Lennard Voogdt\"\n__version__ = \"1.0.0\"\ndef get_initial_arguments():\n    # Parse arguments and make sure we have at least a single word",
+        "peekOfCode": "app_state = {\n    \"log_mode\": False,\n    \"start_prompt\": read_prompt(prompt_path(\"cli\")),\n}\nsession = PromptSession(history=FileHistory(paths[\"chat_history\"]))\ncmd_session = PromptSession(history=FileHistory(paths[\"commands_history\"]))\n__author__ = importlib.metadata.metadata(\"hey-gpt\")['Author']\n__version__ = importlib.metadata.version(\"hey-gpt\")\ndef get_initial_arguments():\n    # Parse arguments and make sure we have at least a single word",
         "detail": "hey.cli",
         "documentation": {}
     },
@@ -1521,7 +2124,7 @@
         "kind": 5,
         "importPath": "hey.cli",
         "description": "hey.cli",
-        "peekOfCode": "session = PromptSession(history=FileHistory(paths[\"chat_history\"]))\ncmd_session = PromptSession(history=FileHistory(paths[\"commands_history\"]))\n__author__ = \"Lennard Voogdt\"\n__version__ = \"1.0.0\"\ndef get_initial_arguments():\n    # Parse arguments and make sure we have at least a single word\n    if len(sys.argv) < 2:\n        return None\n    arguments = sys.argv[1:]\n    return \" \".join(arguments)",
+        "peekOfCode": "session = PromptSession(history=FileHistory(paths[\"chat_history\"]))\ncmd_session = PromptSession(history=FileHistory(paths[\"commands_history\"]))\n__author__ = importlib.metadata.metadata(\"hey-gpt\")['Author']\n__version__ = importlib.metadata.version(\"hey-gpt\")\ndef get_initial_arguments():\n    # Parse arguments and make sure we have at least a single word\n    if len(sys.argv) < 2:\n        return None\n    arguments = sys.argv[1:]\n    return \" \".join(arguments)",
         "detail": "hey.cli",
         "documentation": {}
     },
@@ -1530,7 +2133,7 @@
         "kind": 5,
         "importPath": "hey.cli",
         "description": "hey.cli",
-        "peekOfCode": "cmd_session = PromptSession(history=FileHistory(paths[\"commands_history\"]))\n__author__ = \"Lennard Voogdt\"\n__version__ = \"1.0.0\"\ndef get_initial_arguments():\n    # Parse arguments and make sure we have at least a single word\n    if len(sys.argv) < 2:\n        return None\n    arguments = sys.argv[1:]\n    return \" \".join(arguments)\ndef help():",
+        "peekOfCode": "cmd_session = PromptSession(history=FileHistory(paths[\"commands_history\"]))\n__author__ = importlib.metadata.metadata(\"hey-gpt\")['Author']\n__version__ = importlib.metadata.version(\"hey-gpt\")\ndef get_initial_arguments():\n    # Parse arguments and make sure we have at least a single word\n    if len(sys.argv) < 2:\n        return None\n    arguments = sys.argv[1:]\n    return \" \".join(arguments)\ndef help():",
         "detail": "hey.cli",
         "documentation": {}
     },
@@ -1539,7 +2142,7 @@
         "kind": 5,
         "importPath": "hey.cli",
         "description": "hey.cli",
-        "peekOfCode": "__author__ = \"Lennard Voogdt\"\n__version__ = \"1.0.0\"\ndef get_initial_arguments():\n    # Parse arguments and make sure we have at least a single word\n    if len(sys.argv) < 2:\n        return None\n    arguments = sys.argv[1:]\n    return \" \".join(arguments)\ndef help():\n    print(colored(\"Hey version \" + __version__, \"green\"))",
+        "peekOfCode": "__author__ = importlib.metadata.metadata(\"hey-gpt\")['Author']\n__version__ = importlib.metadata.version(\"hey-gpt\")\ndef get_initial_arguments():\n    # Parse arguments and make sure we have at least a single word\n    if len(sys.argv) < 2:\n        return None\n    arguments = sys.argv[1:]\n    return \" \".join(arguments)\ndef help():\n    print(colored(\"Hey version \" + __version__, \"green\"))",
         "detail": "hey.cli",
         "documentation": {}
     },
@@ -1548,7 +2151,7 @@
         "kind": 5,
         "importPath": "hey.cli",
         "description": "hey.cli",
-        "peekOfCode": "__version__ = \"1.0.0\"\ndef get_initial_arguments():\n    # Parse arguments and make sure we have at least a single word\n    if len(sys.argv) < 2:\n        return None\n    arguments = sys.argv[1:]\n    return \" \".join(arguments)\ndef help():\n    print(colored(\"Hey version \" + __version__, \"green\"))\n    print (\"ChatGPT on the commandline\")",
+        "peekOfCode": "__version__ = importlib.metadata.version(\"hey-gpt\")\ndef get_initial_arguments():\n    # Parse arguments and make sure we have at least a single word\n    if len(sys.argv) < 2:\n        return None\n    arguments = sys.argv[1:]\n    return \" \".join(arguments)\ndef help():\n    print(colored(\"Hey version \" + __version__, \"green\"))\n    print (\"ChatGPT on the commandline\")",
         "detail": "hey.cli",
         "documentation": {}
     },
@@ -1566,7 +2169,7 @@
         "kind": 5,
         "importPath": "hey.cli",
         "description": "hey.cli",
-        "peekOfCode": "loaded_plugins = []\nif __name__ == \"__main__\":  \n    try:\n        install()\n        # load_plugins(commands)\n        loaded_plugins = load_plugins({\n                'app_state': app_state,\n                'commands': commands,\n                'clear': clear,\n                'parse_prompt': parse_prompt,",
+        "peekOfCode": "loaded_plugins = []\ndef init():\n    try:\n        hey.install.install()\n        # load_plugins(commands)\n        loaded_plugins = load_plugins({\n                'app_state': app_state,\n                'commands': commands,\n            },\n        )",
         "detail": "hey.cli",
         "documentation": {}
     },
@@ -1593,7 +2196,7 @@
         "kind": 2,
         "importPath": "hey.install",
         "description": "hey.install",
-        "peekOfCode": "def install(force=False):\n    # and copy them to ~/.hey/\n    home_path = os.path.expanduser(\"~\")\n    hey_path = os.path.join(home_path, \".hey\")\n    prompt_path = os.path.join(hey_path, \"prompt\")\n    program_path = os.path.dirname(__file__)\n    # Check for openai key\n    openai_key_path = os.path.join(home_path, \".openai.apikey\")\n    if not os.path.exists(openai_key_path):\n        print(colored(\"* No OpenAI key found at \" + openai_key_path, 'grey'))",
+        "peekOfCode": "def install(force=False):\n    # and copy them to ~/.hey/\n    home_path = os.path.expanduser(\"~\")\n    hey_path = os.path.join(home_path, \".hey\")\n    prompt_path = os.path.join(hey_path, \"prompt\")\n    program_path = os.path.dirname(__file__)\n    # Check for openai key\n    openai_key_path = os.path.join(home_path, \".openai.apikey\")\n    if not os.path.exists(openai_key_path):\n        print(colored(\"* No OpenAI key found at \" + openai_key_path, 'light_grey'))",
         "detail": "hey.install",
         "documentation": {}
     },
@@ -1647,7 +2250,25 @@
         "kind": 2,
         "importPath": "hey.prompt",
         "description": "hey.prompt",
-        "peekOfCode": "def swallow_yaml(delayed_buffer, start = \"[yaml]\", end = \"[\\yaml]\", name = \"yaml\", skip = False):\n    delayed_buffer_joined = \"\".join(delayed_buffer)\n    if start in delayed_buffer_joined:\n        current[0] = 0\n        flush_buffer = delayed_buffer_joined.replace(start, \"\")\n        print(flush_buffer, end='', flush=True)\n        print (colored(\"> Reading \" + name + \"  \", \"green\"), end=\"\", flush=True)\n        # Clear the buffer by reference\n        delayed_buffer.clear()\n        skip = True",
+        "peekOfCode": "def swallow_yaml(delayed_buffer, start = \"[yaml]\", end = \"[\\yaml]\", name = \"yaml\", skip = False):\n    global has_yaml\n    delayed_buffer_joined = \"\".join(delayed_buffer)\n    if start in delayed_buffer_joined:\n        current[0] = 0\n        flush_buffer = delayed_buffer_joined.replace(start, \"\")\n        print(flush_buffer, end='', flush=True)\n        print (colored(\"> Reading \" + name + \"  \", \"green\"), end=\"\", flush=True)\n        # Clear the buffer by reference\n        delayed_buffer.clear()",
+        "detail": "hey.prompt",
+        "documentation": {}
+    },
+    {
+        "label": "swallow_code",
+        "kind": 2,
+        "importPath": "hey.prompt",
+        "description": "hey.prompt",
+        "peekOfCode": "def swallow_code(delayed_buffer, start = \"```\", end = \"```\", lang = \"python\", skip = False):\n    delayed_buffer_joined = \"\".join(delayed_buffer)\n    if skip == True and end in delayed_buffer_joined:\n        flush_buffer = delayed_buffer_joined.replace(end, \"\")\n        lexer = get_lexer_by_name(lang, stripall=True)\n        formatter = TerminalFormatter()\n        result = highlight(flush_buffer, lexer, formatter)\n        print(result.strip(), end='', flush=True)\n        delayed_buffer.clear()\n        skip = False",
+        "detail": "hey.prompt",
+        "documentation": {}
+    },
+    {
+        "label": "syntax_highlighter",
+        "kind": 2,
+        "importPath": "hey.prompt",
+        "description": "hey.prompt",
+        "peekOfCode": "def syntax_highlighter(delayed_buffer, skip = False):\n    global current_lang\n    current_lang_now = current_lang[0] if len(current_lang) > 0 else None\n    if current_lang_now != None:\n        langSkip = swallow_code(delayed_buffer, start = \"```\" + current_lang_now, end = \"```\", lang = current_lang_now, skip = skip)\n        if langSkip == False:\n            current_lang = []\n        return langSkip\n    else:\n        for lng in langs:",
         "detail": "hey.prompt",
         "documentation": {}
     },
@@ -1656,7 +2277,7 @@
         "kind": 2,
         "importPath": "hey.prompt",
         "description": "hey.prompt",
-        "peekOfCode": "def parse_prompt(prompt_file, data = {}):\n    ## Find the executing directory (e.g. in case an alias is set)\n    ## So we can find the prompt.txt file\n    home_path = os.path.expanduser(\"~\")\n    hey_path = os.path.join(home_path, \".hey\")\n    shell = os.environ.get(\"SHELL\", \"powershell.exe\") \n    ## Load the prompt and prep it\n    pre_prompt = open(prompt_file,\"r\").read()\n    pre_prompt = pre_prompt.replace(\"{shell}\", shell)\n    for key in data:",
+        "peekOfCode": "def parse_prompt(prompt_text, data = {}):\n    ## Find the executing directory (e.g. in case an alias is set)\n    ## So we can find the prompt.txt file\n    home_path = os.path.expanduser(\"~\")\n    hey_path = os.path.join(home_path, \".hey\")\n    shell = os.environ.get(\"SHELL\", \"powershell.exe\") \n    ## Load the prompt and prep it\n    pre_prompt = prompt_text\n    # pre_prompt = open(prompt_file,\"r\").read()\n    pre_prompt = pre_prompt.replace(\"{shell}\", shell)",
         "detail": "hey.prompt",
         "documentation": {}
     },
@@ -1665,7 +2286,7 @@
         "kind": 5,
         "importPath": "hey.prompt",
         "description": "hey.prompt",
-        "peekOfCode": "current = [0]\nwaiter = ['.', '..', ' ', ' ', ' ', ' ']\ndef swallow_yaml(delayed_buffer, start = \"[yaml]\", end = \"[\\yaml]\", name = \"yaml\", skip = False):\n    delayed_buffer_joined = \"\".join(delayed_buffer)\n    if start in delayed_buffer_joined:\n        current[0] = 0\n        flush_buffer = delayed_buffer_joined.replace(start, \"\")\n        print(flush_buffer, end='', flush=True)\n        print (colored(\"> Reading \" + name + \"  \", \"green\"), end=\"\", flush=True)\n        # Clear the buffer by reference",
+        "peekOfCode": "current = [0]\nwaiter = ['.', '..', ' ', ' ', ' ', ' ']\nhas_yaml = False\ndef swallow_yaml(delayed_buffer, start = \"[yaml]\", end = \"[\\yaml]\", name = \"yaml\", skip = False):\n    global has_yaml\n    delayed_buffer_joined = \"\".join(delayed_buffer)\n    if start in delayed_buffer_joined:\n        current[0] = 0\n        flush_buffer = delayed_buffer_joined.replace(start, \"\")\n        print(flush_buffer, end='', flush=True)",
         "detail": "hey.prompt",
         "documentation": {}
     },
@@ -1674,7 +2295,34 @@
         "kind": 5,
         "importPath": "hey.prompt",
         "description": "hey.prompt",
-        "peekOfCode": "waiter = ['.', '..', ' ', ' ', ' ', ' ']\ndef swallow_yaml(delayed_buffer, start = \"[yaml]\", end = \"[\\yaml]\", name = \"yaml\", skip = False):\n    delayed_buffer_joined = \"\".join(delayed_buffer)\n    if start in delayed_buffer_joined:\n        current[0] = 0\n        flush_buffer = delayed_buffer_joined.replace(start, \"\")\n        print(flush_buffer, end='', flush=True)\n        print (colored(\"> Reading \" + name + \"  \", \"green\"), end=\"\", flush=True)\n        # Clear the buffer by reference\n        delayed_buffer.clear()",
+        "peekOfCode": "waiter = ['.', '..', ' ', ' ', ' ', ' ']\nhas_yaml = False\ndef swallow_yaml(delayed_buffer, start = \"[yaml]\", end = \"[\\yaml]\", name = \"yaml\", skip = False):\n    global has_yaml\n    delayed_buffer_joined = \"\".join(delayed_buffer)\n    if start in delayed_buffer_joined:\n        current[0] = 0\n        flush_buffer = delayed_buffer_joined.replace(start, \"\")\n        print(flush_buffer, end='', flush=True)\n        print (colored(\"> Reading \" + name + \"  \", \"green\"), end=\"\", flush=True)",
+        "detail": "hey.prompt",
+        "documentation": {}
+    },
+    {
+        "label": "has_yaml",
+        "kind": 5,
+        "importPath": "hey.prompt",
+        "description": "hey.prompt",
+        "peekOfCode": "has_yaml = False\ndef swallow_yaml(delayed_buffer, start = \"[yaml]\", end = \"[\\yaml]\", name = \"yaml\", skip = False):\n    global has_yaml\n    delayed_buffer_joined = \"\".join(delayed_buffer)\n    if start in delayed_buffer_joined:\n        current[0] = 0\n        flush_buffer = delayed_buffer_joined.replace(start, \"\")\n        print(flush_buffer, end='', flush=True)\n        print (colored(\"> Reading \" + name + \"  \", \"green\"), end=\"\", flush=True)\n        # Clear the buffer by reference",
+        "detail": "hey.prompt",
+        "documentation": {}
+    },
+    {
+        "label": "langs",
+        "kind": 5,
+        "importPath": "hey.prompt",
+        "description": "hey.prompt",
+        "peekOfCode": "langs = [\"python\", \"bash\", \"json\", \"javascript\", \"typescript\", \"html\", \"css\", \"php\", \"java\", \"c\", \"cpp\", \"csharp\", \"go\", \"rust\", \"swift\", \"kotlin\", \"ruby\", \"perl\", \"powershell\", \"sql\", \"shell\", \"dockerfile\", \"makefile\", \"ini\", \"toml\", \"xml\", \"diff\", \"markdown\", \"latex\", \"plaintext\"]\ncurrent_lang = []\ndef swallow_code(delayed_buffer, start = \"```\", end = \"```\", lang = \"python\", skip = False):\n    delayed_buffer_joined = \"\".join(delayed_buffer)\n    if skip == True and end in delayed_buffer_joined:\n        flush_buffer = delayed_buffer_joined.replace(end, \"\")\n        lexer = get_lexer_by_name(lang, stripall=True)\n        formatter = TerminalFormatter()\n        result = highlight(flush_buffer, lexer, formatter)\n        print(result.strip(), end='', flush=True)",
+        "detail": "hey.prompt",
+        "documentation": {}
+    },
+    {
+        "label": "current_lang",
+        "kind": 5,
+        "importPath": "hey.prompt",
+        "description": "hey.prompt",
+        "peekOfCode": "current_lang = []\ndef swallow_code(delayed_buffer, start = \"```\", end = \"```\", lang = \"python\", skip = False):\n    delayed_buffer_joined = \"\".join(delayed_buffer)\n    if skip == True and end in delayed_buffer_joined:\n        flush_buffer = delayed_buffer_joined.replace(end, \"\")\n        lexer = get_lexer_by_name(lang, stripall=True)\n        formatter = TerminalFormatter()\n        result = highlight(flush_buffer, lexer, formatter)\n        print(result.strip(), end='', flush=True)\n        delayed_buffer.clear()",
         "detail": "hey.prompt",
         "documentation": {}
     }

@@ -16,7 +16,7 @@ def install(force=False):
     openai_key_path = os.path.join(home_path, ".openai.apikey")
 
     if not os.path.exists(openai_key_path):
-        print(colored("* No OpenAI key found at " + openai_key_path, 'grey'))
+        print(colored("* No OpenAI key found at " + openai_key_path, 'light_grey'))
 
         api_key = prompt("Please enter your OpenAI key: ")
         with open(openai_key_path, "w") as f:
@@ -25,11 +25,11 @@ def install(force=False):
     find_openai_key()
 
     if not os.path.exists(hey_path):
-        # print(colored("* Creating " + hey_path, 'grey'))
+        print(colored("* Creating " + hey_path, 'light_grey'))
         os.makedirs(hey_path)
 
     # if not os.path.exists(prompt_path):
-    #     # print(colored("* Creating " + prompt_path, 'grey'))
+    #     # print(colored("* Creating " + prompt_path, 'light_grey'))
     #     os.makedirs(prompt_path)
 
     # # Get all the prompt.* files in the directory of this script
@@ -38,7 +38,7 @@ def install(force=False):
     # for file in files:
     #     # If file doesnt exist, copy it with shutil
     #     if not os.path.exists(os.path.join(prompt_path, os.path.basename(file))) or force:
-    #         print(colored("* Creating " + prompt_path + "/" + os.path.basename(file), 'grey'))
+    #         print(colored("* Creating " + prompt_path + "/" + os.path.basename(file), 'light_grey'))
     #         shutil.copy(file, prompt_path)
 
     # In the program_path are plugins that we want to copy to ~/.hey/plugins
@@ -51,7 +51,7 @@ def install(force=False):
     #     plugin_path = os.path.join(hey_path, "plugins", plugin_name)
 
     #     if not os.path.exists(plugin_path):
-    #         print(colored("* Creating " + plugin_path, 'grey'))
+    #         print(colored("* Creating " + plugin_path, 'light_grey'))
     #         os.makedirs(plugin_path)
 
     #     # Copy all files in the plugin directory
@@ -59,7 +59,7 @@ def install(force=False):
 
     #     for file in files:
     #         if not os.path.exists(os.path.join(plugin_path, os.path.basename(file))) or force:
-    #             print(colored("* Creating " + plugin_path + "/" + os.path.basename(file), 'grey'))
+    #             print(colored("* Creating " + plugin_path + "/" + os.path.basename(file), 'light_grey'))
     #             shutil.copy(file, plugin_path)
 
 loaded_plugs = []

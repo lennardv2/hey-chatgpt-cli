@@ -5,6 +5,7 @@ import yaml
 from hey.prompt import parse_prompt
 from termcolor import colored
 from hey.cli import prompt_path
+from hey.cli import read_prompt
 
 def print_header(title, index, length, type="Command", dangerous = False):
     show_num = "(" + str(index + 1) + "/" + str(length) + ") "
@@ -72,7 +73,7 @@ def parse_output(chat_output):
                 run_throught_gpt = hey.actions.ask_run_through_gpt(output)
 
                 if (run_throught_gpt == True):
-                    response += parse_prompt(prompt_path("command"), { 'command': command, 'output': output })
+                    response += parse_prompt(read_prompt(prompt_path("command")), { 'command': command, 'output': output })
 
         # check if the yaml has a file
         if "file" in yaml_response:
