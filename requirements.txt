@@ -1,0 +1,10 @@
+colorama==0.4.6
+distro==1.8.0
+openai==0.27.2
+prompt_toolkit==3.0.38
+Pygments==2.13.0
+PyYAML==6.0
+setuptools==57.4.0
+simple_term_menu==1.6.1
+termcolor==2.2.0
+tiktoken==0.3.0

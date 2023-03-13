@@ -337,6 +337,14 @@
         "documentation": {}
     },
     {
+        "label": "supressed_buffer",
+        "importPath": "hey.prompt",
+        "description": "hey.prompt",
+        "isExtraImport": true,
+        "detail": "hey.prompt",
+        "documentation": {}
+    },
+    {
         "label": "parse_prompt",
         "importPath": "hey.prompt",
         "description": "hey.prompt",
@@ -370,6 +378,14 @@
     },
     {
         "label": "parse_prompt",
+        "importPath": "hey.prompt",
+        "description": "hey.prompt",
+        "isExtraImport": true,
+        "detail": "hey.prompt",
+        "documentation": {}
+    },
+    {
+        "label": "supressed_buffer",
         "importPath": "hey.prompt",
         "description": "hey.prompt",
         "isExtraImport": true,
@@ -1332,7 +1348,7 @@
         "kind": 2,
         "importPath": "build.lib.hey.cli",
         "description": "build.lib.hey.cli",
-        "peekOfCode": "def you_input():\n    style = Style.from_dict({'': '#59acfb','you': '#59acfb',})\n    msg = [('class:you', '❯ ')]\n    print()\n    def get_rprompt():\n        text = session.default_buffer.text\n        return 'Tokens: ' + str(hey.aichat.get_tokens(text)) + \"/\" + str(hey.aichat.max_tokens())\n    user_input = session.prompt(msg, rprompt=get_rprompt, style=style, cursor=CursorShape.BEAM, auto_suggest=AutoSuggestFromHistory())\n    return user_input\ndef main():",
+        "peekOfCode": "def you_input():\n    style = Style.from_dict({'': '#59acfb','you': '#59acfb',})\n    msg = [('class:you', '❯❯ ')]\n    print()\n    def get_rprompt():\n        text = session.default_buffer.text\n        return 'Tokens: ' + str(hey.aichat.get_tokens(text)) + \"/\" + str(hey.aichat.max_tokens())\n    user_input = session.prompt(msg, rprompt=get_rprompt, style=style, cursor=CursorShape.BEAM, auto_suggest=AutoSuggestFromHistory())\n    return user_input\ndef main():",
         "detail": "build.lib.hey.cli",
         "documentation": {}
     },
@@ -1539,7 +1555,7 @@
         "kind": 2,
         "importPath": "build.lib.hey.prompt",
         "description": "build.lib.hey.prompt",
-        "peekOfCode": "def swallow_yaml(delayed_buffer, start = \"[yaml]\", end = \"[\\yaml]\", name = \"yaml\", skip = False):\n    global has_yaml\n    delayed_buffer_joined = \"\".join(delayed_buffer)\n    if start in delayed_buffer_joined:\n        current[0] = 0\n        flush_buffer = delayed_buffer_joined.replace(start, \"\")\n        print(flush_buffer, end='', flush=True)\n        print (colored(\"> Reading \" + name + \"  \", \"green\"), end=\"\", flush=True)\n        # Clear the buffer by reference\n        delayed_buffer.clear()",
+        "peekOfCode": "def swallow_yaml(delayed_buffer, start = \"[yaml]\", end = \"[\\yaml]\", name = \"yaml\", skip = False):\n    global has_yaml\n    global supressed_buffer\n    delayed_buffer_joined = \"\".join(delayed_buffer)\n    if has_yaml == True and end in delayed_buffer_joined:\n        print()\n        print()\n        delayed_buffer.clear()\n        skip = False\n        has_yaml = False",
         "detail": "build.lib.hey.prompt",
         "documentation": {}
     },
@@ -1575,7 +1591,7 @@
         "kind": 5,
         "importPath": "build.lib.hey.prompt",
         "description": "build.lib.hey.prompt",
-        "peekOfCode": "current = [0]\nwaiter = ['.', '..', ' ', ' ', ' ', ' ']\nhas_yaml = False\ndef swallow_yaml(delayed_buffer, start = \"[yaml]\", end = \"[\\yaml]\", name = \"yaml\", skip = False):\n    global has_yaml\n    delayed_buffer_joined = \"\".join(delayed_buffer)\n    if start in delayed_buffer_joined:\n        current[0] = 0\n        flush_buffer = delayed_buffer_joined.replace(start, \"\")\n        print(flush_buffer, end='', flush=True)",
+        "peekOfCode": "current = [0]\nwaiter = ['.', '..', ' ', ' ', ' ', ' ']\nhas_yaml = False\nsupressed_buffer = \"\"\ndef swallow_yaml(delayed_buffer, start = \"[yaml]\", end = \"[\\yaml]\", name = \"yaml\", skip = False):\n    global has_yaml\n    global supressed_buffer\n    delayed_buffer_joined = \"\".join(delayed_buffer)\n    if has_yaml == True and end in delayed_buffer_joined:\n        print()",
         "detail": "build.lib.hey.prompt",
         "documentation": {}
     },
@@ -1584,7 +1600,7 @@
         "kind": 5,
         "importPath": "build.lib.hey.prompt",
         "description": "build.lib.hey.prompt",
-        "peekOfCode": "waiter = ['.', '..', ' ', ' ', ' ', ' ']\nhas_yaml = False\ndef swallow_yaml(delayed_buffer, start = \"[yaml]\", end = \"[\\yaml]\", name = \"yaml\", skip = False):\n    global has_yaml\n    delayed_buffer_joined = \"\".join(delayed_buffer)\n    if start in delayed_buffer_joined:\n        current[0] = 0\n        flush_buffer = delayed_buffer_joined.replace(start, \"\")\n        print(flush_buffer, end='', flush=True)\n        print (colored(\"> Reading \" + name + \"  \", \"green\"), end=\"\", flush=True)",
+        "peekOfCode": "waiter = ['.', '..', ' ', ' ', ' ', ' ']\nhas_yaml = False\nsupressed_buffer = \"\"\ndef swallow_yaml(delayed_buffer, start = \"[yaml]\", end = \"[\\yaml]\", name = \"yaml\", skip = False):\n    global has_yaml\n    global supressed_buffer\n    delayed_buffer_joined = \"\".join(delayed_buffer)\n    if has_yaml == True and end in delayed_buffer_joined:\n        print()\n        print()",
         "detail": "build.lib.hey.prompt",
         "documentation": {}
     },
@@ -1593,7 +1609,16 @@
         "kind": 5,
         "importPath": "build.lib.hey.prompt",
         "description": "build.lib.hey.prompt",
-        "peekOfCode": "has_yaml = False\ndef swallow_yaml(delayed_buffer, start = \"[yaml]\", end = \"[\\yaml]\", name = \"yaml\", skip = False):\n    global has_yaml\n    delayed_buffer_joined = \"\".join(delayed_buffer)\n    if start in delayed_buffer_joined:\n        current[0] = 0\n        flush_buffer = delayed_buffer_joined.replace(start, \"\")\n        print(flush_buffer, end='', flush=True)\n        print (colored(\"> Reading \" + name + \"  \", \"green\"), end=\"\", flush=True)\n        # Clear the buffer by reference",
+        "peekOfCode": "has_yaml = False\nsupressed_buffer = \"\"\ndef swallow_yaml(delayed_buffer, start = \"[yaml]\", end = \"[\\yaml]\", name = \"yaml\", skip = False):\n    global has_yaml\n    global supressed_buffer\n    delayed_buffer_joined = \"\".join(delayed_buffer)\n    if has_yaml == True and end in delayed_buffer_joined:\n        print()\n        print()\n        delayed_buffer.clear()",
+        "detail": "build.lib.hey.prompt",
+        "documentation": {}
+    },
+    {
+        "label": "supressed_buffer",
+        "kind": 5,
+        "importPath": "build.lib.hey.prompt",
+        "description": "build.lib.hey.prompt",
+        "peekOfCode": "supressed_buffer = \"\"\ndef swallow_yaml(delayed_buffer, start = \"[yaml]\", end = \"[\\yaml]\", name = \"yaml\", skip = False):\n    global has_yaml\n    global supressed_buffer\n    delayed_buffer_joined = \"\".join(delayed_buffer)\n    if has_yaml == True and end in delayed_buffer_joined:\n        print()\n        print()\n        delayed_buffer.clear()\n        skip = False",
         "detail": "build.lib.hey.prompt",
         "documentation": {}
     },
@@ -2043,7 +2068,7 @@
         "kind": 2,
         "importPath": "hey.cli",
         "description": "hey.cli",
-        "peekOfCode": "def you_input():\n    style = Style.from_dict({'': '#59acfb','you': '#59acfb',})\n    msg = [('class:you', '❯ ')]\n    print()\n    def get_rprompt():\n        text = session.default_buffer.text\n        return 'Tokens: ' + str(hey.aichat.get_tokens(text)) + \"/\" + str(hey.aichat.max_tokens())\n    user_input = session.prompt(msg, rprompt=get_rprompt, style=style, cursor=CursorShape.BEAM, auto_suggest=AutoSuggestFromHistory())\n    return user_input\ndef main():",
+        "peekOfCode": "def you_input():\n    style = Style.from_dict({'': '#59acfb','you': '#59acfb',})\n    msg = [('class:you', '❯❯ ')]\n    print()\n    def get_rprompt():\n        text = session.default_buffer.text\n        return 'Tokens: ' + str(hey.aichat.get_tokens(text)) + \"/\" + str(hey.aichat.max_tokens())\n    user_input = session.prompt(msg, rprompt=get_rprompt, style=style, cursor=CursorShape.BEAM, auto_suggest=AutoSuggestFromHistory())\n    return user_input\ndef main():",
         "detail": "hey.cli",
         "documentation": {}
     },
@@ -2250,7 +2275,7 @@
         "kind": 2,
         "importPath": "hey.prompt",
         "description": "hey.prompt",
-        "peekOfCode": "def swallow_yaml(delayed_buffer, start = \"[yaml]\", end = \"[\\yaml]\", name = \"yaml\", skip = False):\n    global has_yaml\n    delayed_buffer_joined = \"\".join(delayed_buffer)\n    if start in delayed_buffer_joined:\n        current[0] = 0\n        flush_buffer = delayed_buffer_joined.replace(start, \"\")\n        print(flush_buffer, end='', flush=True)\n        print (colored(\"> Reading \" + name + \"  \", \"green\"), end=\"\", flush=True)\n        # Clear the buffer by reference\n        delayed_buffer.clear()",
+        "peekOfCode": "def swallow_yaml(delayed_buffer, start = \"[yaml]\", end = \"[\\yaml]\", name = \"yaml\", skip = False):\n    global has_yaml\n    global supressed_buffer\n    delayed_buffer_joined = \"\".join(delayed_buffer)\n    if has_yaml == True and end in delayed_buffer_joined:\n        print()\n        print()\n        delayed_buffer.clear()\n        skip = False\n        has_yaml = False",
         "detail": "hey.prompt",
         "documentation": {}
     },
@@ -2286,7 +2311,7 @@
         "kind": 5,
         "importPath": "hey.prompt",
         "description": "hey.prompt",
-        "peekOfCode": "current = [0]\nwaiter = ['.', '..', ' ', ' ', ' ', ' ']\nhas_yaml = False\ndef swallow_yaml(delayed_buffer, start = \"[yaml]\", end = \"[\\yaml]\", name = \"yaml\", skip = False):\n    global has_yaml\n    delayed_buffer_joined = \"\".join(delayed_buffer)\n    if start in delayed_buffer_joined:\n        current[0] = 0\n        flush_buffer = delayed_buffer_joined.replace(start, \"\")\n        print(flush_buffer, end='', flush=True)",
+        "peekOfCode": "current = [0]\nwaiter = ['.', '..', ' ', ' ', ' ', ' ']\nhas_yaml = False\nsupressed_buffer = \"\"\ndef swallow_yaml(delayed_buffer, start = \"[yaml]\", end = \"[\\yaml]\", name = \"yaml\", skip = False):\n    global has_yaml\n    global supressed_buffer\n    delayed_buffer_joined = \"\".join(delayed_buffer)\n    if has_yaml == True and end in delayed_buffer_joined:\n        print()",
         "detail": "hey.prompt",
         "documentation": {}
     },
@@ -2295,7 +2320,7 @@
         "kind": 5,
         "importPath": "hey.prompt",
         "description": "hey.prompt",
-        "peekOfCode": "waiter = ['.', '..', ' ', ' ', ' ', ' ']\nhas_yaml = False\ndef swallow_yaml(delayed_buffer, start = \"[yaml]\", end = \"[\\yaml]\", name = \"yaml\", skip = False):\n    global has_yaml\n    delayed_buffer_joined = \"\".join(delayed_buffer)\n    if start in delayed_buffer_joined:\n        current[0] = 0\n        flush_buffer = delayed_buffer_joined.replace(start, \"\")\n        print(flush_buffer, end='', flush=True)\n        print (colored(\"> Reading \" + name + \"  \", \"green\"), end=\"\", flush=True)",
+        "peekOfCode": "waiter = ['.', '..', ' ', ' ', ' ', ' ']\nhas_yaml = False\nsupressed_buffer = \"\"\ndef swallow_yaml(delayed_buffer, start = \"[yaml]\", end = \"[\\yaml]\", name = \"yaml\", skip = False):\n    global has_yaml\n    global supressed_buffer\n    delayed_buffer_joined = \"\".join(delayed_buffer)\n    if has_yaml == True and end in delayed_buffer_joined:\n        print()\n        print()",
         "detail": "hey.prompt",
         "documentation": {}
     },
@@ -2304,7 +2329,16 @@
         "kind": 5,
         "importPath": "hey.prompt",
         "description": "hey.prompt",
-        "peekOfCode": "has_yaml = False\ndef swallow_yaml(delayed_buffer, start = \"[yaml]\", end = \"[\\yaml]\", name = \"yaml\", skip = False):\n    global has_yaml\n    delayed_buffer_joined = \"\".join(delayed_buffer)\n    if start in delayed_buffer_joined:\n        current[0] = 0\n        flush_buffer = delayed_buffer_joined.replace(start, \"\")\n        print(flush_buffer, end='', flush=True)\n        print (colored(\"> Reading \" + name + \"  \", \"green\"), end=\"\", flush=True)\n        # Clear the buffer by reference",
+        "peekOfCode": "has_yaml = False\nsupressed_buffer = \"\"\ndef swallow_yaml(delayed_buffer, start = \"[yaml]\", end = \"[\\yaml]\", name = \"yaml\", skip = False):\n    global has_yaml\n    global supressed_buffer\n    delayed_buffer_joined = \"\".join(delayed_buffer)\n    if has_yaml == True and end in delayed_buffer_joined:\n        print()\n        print()\n        delayed_buffer.clear()",
+        "detail": "hey.prompt",
+        "documentation": {}
+    },
+    {
+        "label": "supressed_buffer",
+        "kind": 5,
+        "importPath": "hey.prompt",
+        "description": "hey.prompt",
+        "peekOfCode": "supressed_buffer = \"\"\ndef swallow_yaml(delayed_buffer, start = \"[yaml]\", end = \"[\\yaml]\", name = \"yaml\", skip = False):\n    global has_yaml\n    global supressed_buffer\n    delayed_buffer_joined = \"\".join(delayed_buffer)\n    if has_yaml == True and end in delayed_buffer_joined:\n        print()\n        print()\n        delayed_buffer.clear()\n        skip = False",
         "detail": "hey.prompt",
         "documentation": {}
     },
