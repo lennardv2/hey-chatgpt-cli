@@ -4,6 +4,7 @@ Hey is a powerful chatbot for the command line that uses ChatGPT to generate com
 
 ### Command mode
 This uses a prompt with your os and shell included. It can send commands for you to run (or skip). It will show when a command is concidered dangerous, the default will be to skip the command.
+
 https://user-images.githubusercontent.com/168357/224721506-abbb4887-1d17-497c-9148-c9e592e60f22.mp4
 
 ### Help
@@ -11,10 +12,12 @@ https://user-images.githubusercontent.com/168357/224721506-abbb4887-1d17-497c-91
 
 ### Lang mode:
 The lang mode can help with programming questions in specific language.
+
 https://user-images.githubusercontent.com/168357/224721527-0718dea4-a332-4417-bb71-ccaf14616ad4.mp4
 
 ### Chat
 In chat mode you have a quite normal chatgpt experience in your command line, with the option to save parts to a file.
+
 https://user-images.githubusercontent.com/168357/224721549-52e45014-b7d1-4ee7-a368-d120baedb2ca.mp4
 
 ## Installation
