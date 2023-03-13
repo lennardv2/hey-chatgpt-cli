@@ -1,4 +1,4 @@
-# hey - CLI assistant for Linux, Windows, and OSX, powered by ChatGPT API
+# hey - ChatGPT cli assistant for the terminal
 
 Hey is a powerful chatbot for the command line that uses ChatGPT to generate commands based on natural language input.
 
