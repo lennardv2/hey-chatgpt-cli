@@ -7,6 +7,12 @@ This uses a prompt with your os and shell included. It can send commands for you
 
 https://user-images.githubusercontent.com/168357/224721506-abbb4887-1d17-497c-9148-c9e592e60f22.mp4
 
+```hey can you convert all the files in downloads/HEIC with .HEIC files to jpeg and make them square 512x512```
+
+```hey an you create a password with 20 chars```
+
+```I have a files video.mp4 in my downloads folder, can you convert it to a mkv format 1080p```
+
 ### Help
 <img width="791" alt="help" src="https://user-images.githubusercontent.com/168357/224721572-c1167661-463b-4354-8dcb-3f4e90f18b99.png">
 
@@ -14,6 +20,8 @@ https://user-images.githubusercontent.com/168357/224721506-abbb4887-1d17-497c-91
 The lang mode can help with programming questions in specific language.
 
 https://user-images.githubusercontent.com/168357/224721527-0718dea4-a332-4417-bb71-ccaf14616ad4.mp4
+
+With syntax highlighting!
 
 ### Chat
 In chat mode you have a quite normal chatgpt experience in your command line, with the option to save parts to a file.
