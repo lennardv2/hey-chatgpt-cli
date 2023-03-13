@@ -31,6 +31,10 @@ Once Hey is installed, you can run it from anywhere on your system by typing `he
 
 (see pipx https://pypa.github.io/pipx/)
 
+## Requirements
+- Python installed
+- Pipx installed
+
 ## Usage
 
 ```
