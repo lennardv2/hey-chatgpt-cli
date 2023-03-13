@@ -2,6 +2,15 @@
 
 Hey is a powerful chatbot for the command line that uses ChatGPT to generate commands based on natural language input.
 
+## Features
+- 💬 Question to command
+- 🔄 Lets you run multiple commands (always asks and shows you the command)
+- ⚠️ Tags it as dangerous if needed
+- ⬆️ Lets you go arrow up for command history
+- 🔍 Cmd+r to search through command history
+- 💬 Chat mode, just acts more like a normal chat gpt session
+- 🌈 Syntax highlighting of code
+
 ### Command mode
 This uses a prompt with your os and shell included. It can send commands for you to run (or skip). It will show when a command is concidered dangerous, the default will be to skip the command.
 
