@@ -9,39 +9,55 @@ import os
 current = [0]
 waiter = ['.', '..', ' ', ' ', ' ', ' ']
 has_yaml = False
+supressed_buffer = ""
 
 def swallow_yaml(delayed_buffer, start = "[yaml]", end = "[\yaml]", name = "yaml", skip = False):
     global has_yaml
+    global supressed_buffer
 
     delayed_buffer_joined = "".join(delayed_buffer)
 
-    if start in delayed_buffer_joined:
-        current[0] = 0
-        flush_buffer = delayed_buffer_joined.replace(start, "")
-        print(flush_buffer, end='', flush=True)
-        
-        print (colored("> Reading " + name + "  ", "green"), end="", flush=True)
-
-        # Clear the buffer by reference
-        delayed_buffer.clear()
-
-        skip = True
-        has_yaml = True
-
-    if has_yaml == True:
-        current[0] += 1
-        cur = current[0]
-        # Show the waiter in place
-        print (colored("\b" + waiter[cur % len(waiter)], "green"), end="", flush=True)
-        # print (colored(waiter[cur % len(waiter)], "green"), end="", flush=True)
-        # print (colored(".", "green"), end="", flush=True)
-    
-    if end in delayed_buffer_joined:
+    if has_yaml == True and end in delayed_buffer_joined:
         print()
         print()
         delayed_buffer.clear()
         skip = False
         has_yaml = False
+
+    if has_yaml == True and len(delayed_buffer) > 0:
+        supressed_buffer += delayed_buffer[0]
+
+    if has_yaml == True and len(delayed_buffer) > 8:
+        current[0] += 1
+        cur = current[0]
+        # last_token = delayed_buffer[1]
+
+        # if ("command:" in supressed_buffer and "dangerous" not in supressed_buffer):
+        #     print (colored(last_token, "green"), end="", flush=True)
+
+        # Show the waiter in place
+        print (colored("\b" + waiter[cur % len(waiter)], "green"), end="", flush=True)
+        # print (colored(last_token, "green"), end="", flush=True)
+
+        # pop
+        delayed_buffer.pop(0)
+        # print (colored(waiter[cur % len(waiter)], "green"), end="", flush=True)
+        # print (colored(".", "green"), end="", flush=True)
+
+    if has_yaml == False and start in delayed_buffer_joined:
+        current[0] = 0
+        flush_buffer = delayed_buffer_joined.replace(start, "")
+        print(flush_buffer, end='', flush=True)
+        
+        # print (colored("❯ ", "green"), end="", flush=True)
+        print (colored("❯ Reading " + name + "  ", "green"), end="", flush=True)
+
+        # Clear the buffer by reference
+        delayed_buffer.clear()
+        supressed_buffer = ""
+
+        skip = True
+        has_yaml = True
 
     return skip
 
@@ -50,6 +66,7 @@ from pygments import highlight
 from pygments.lexers import get_lexer_by_name
 from pygments.formatters import TerminalFormatter
 import sys
+from hey.prompt import supressed_buffer
 
 langs = ["python", "bash", "json", "javascript", "typescript", "html", "css", "php", "java", "c", "cpp", "csharp", "go", "rust", "swift", "kotlin", "ruby", "perl", "powershell", "sql", "shell", "dockerfile", "makefile", "ini", "toml", "xml", "diff", "markdown", "latex", "plaintext"]
 current_lang = []

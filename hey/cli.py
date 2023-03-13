@@ -228,7 +228,7 @@ commands = {
 
 def you_input():
     style = Style.from_dict({'': '#59acfb','you': '#59acfb',})
-    msg = [('class:you', '❯ ')]
+    msg = [('class:you', '❯❯ ')]
     print()
 
     def get_rprompt():

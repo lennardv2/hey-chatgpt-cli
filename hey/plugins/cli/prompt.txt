@@ -22,6 +22,9 @@ command: The curl command (follow redirects) to run with the correct flags, it h
 dangerous: (true or false)
 [/yaml:curl]
 
+If possbile: use native tools.
+If possible: use one command
+
 Examples:
 ----
 Question: show me all the running programs
