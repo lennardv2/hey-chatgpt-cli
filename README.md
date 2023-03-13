@@ -43,15 +43,11 @@ In chat mode you have a quite normal chatgpt experience in your command line, wi
 https://user-images.githubusercontent.com/168357/224721549-52e45014-b7d1-4ee7-a368-d120baedb2ca.mp4
 
 ## Installation
-Pipx is a tool that allows you to install and run Python packages in isolated environments. This means that you can install Hey without worrying about conflicting dependencies or affecting other Python packages on your system.
-
-To install Hey via pipx, you can use the following command:
+To install Hey via pipx (you might need to install pipx first https://pypa.github.io/pipx/), you can use the following command:
 ```
 pipx install hey-gpt
 ```
 Once Hey is installed, you can run it from anywhere on your system by typing `hey` in your terminal.
-
-(see pipx https://pypa.github.io/pipx/)
 
 ## Requirements
 - Python
