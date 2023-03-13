@@ -15,8 +15,7 @@ https://user-images.githubusercontent.com/168357/224721506-abbb4887-1d17-497c-91
 
 ```I have a files video.mp4 in my downloads folder, can you convert it to a mkv format 1080p```
 
-```Can you convert this mp4 to gif for me: /Users/x/Desktop/video.mp4. Make it as small as po
-ssible while keep the colors intact. Also the max frame count is 500. Make the resolution at width 1280```
+```Can you convert this mp4 to gif for me: /Users/x/Desktop/video.mp4. Make it as small as po ssible while keep the colors intact. Also the max frame count is 500. Make the resolution at width 1280```
 
 ### Help
 <img width="791" alt="help" src="https://user-images.githubusercontent.com/168357/224721572-c1167661-463b-4354-8dcb-3f4e90f18b99.png">
