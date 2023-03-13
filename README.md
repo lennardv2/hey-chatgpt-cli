@@ -4,6 +4,7 @@ Hey is a powerful chatbot for the command line that uses ChatGPT to generate com
 
 ## Features  🚀
 - ❓ Question to command
+- 🌊 Response streaming
 - 🔄 Lets you run multiple commands (always asks before and shows you the command)
 - 📤 Optionally send output of command back to chatgpt for explanation
 - ⚠ Tags it as dangerous if needed
