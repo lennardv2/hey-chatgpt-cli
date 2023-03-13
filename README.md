@@ -1,4 +1,4 @@
-# hey - ChatGPT cli assistant for the terminal
+# hey - chatgpt cli assistant for the terminal
 
 Hey is a powerful chatbot for the command line that uses ChatGPT to generate commands based on natural language input.
 
