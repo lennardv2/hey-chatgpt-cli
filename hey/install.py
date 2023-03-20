@@ -2,7 +2,7 @@ import os
 import glob
 from prompt_toolkit import prompt
 
-from hey.aichat import find_openai_key
+from hey.aichat import setup_openai_key, get_openai_key_path
 from termcolor import colored
 
 def install(force=False):
@@ -13,16 +13,16 @@ def install(force=False):
     program_path = os.path.dirname(__file__)
 
     # Check for openai key
-    openai_key_path = os.path.join(home_path, ".openai.apikey")
-
-    if not os.path.exists(openai_key_path):
+    if not setup_openai_key():
+        openai_key_path = get_openai_key_path()
         print(colored("* No OpenAI key found at " + openai_key_path, 'light_grey'))
 
         api_key = prompt("Please enter your OpenAI key: ")
         with open(openai_key_path, "w") as f:
             f.write(api_key)
 
-    find_openai_key()
+        # update the key
+        setup_openai_key()
 
     if not os.path.exists(hey_path):
         print(colored("* Creating " + hey_path, 'light_grey'))

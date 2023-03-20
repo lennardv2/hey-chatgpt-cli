@@ -244,7 +244,7 @@ def main():
     global prompt
     colorama.init()
 
-    hey.aichat.find_openai_key()
+    hey.aichat.setup_openai_key()
 
     user_input = get_initial_arguments()
 
