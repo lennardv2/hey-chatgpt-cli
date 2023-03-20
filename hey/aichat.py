@@ -29,9 +29,19 @@ def get_dollars(additional_tokens):
 def get_tokens_available(additional_tokens = ""):
     return max_tokens() - get_tokens(additional_tokens)
 
-def find_openai_key():
+def get_openai_key_path():
     home_path = os.path.expanduser("~")    
-    openai.api_key_path = os.path.join(home_path,".openai.apikey")
+    return os.path.join(home_path,".openai.apikey")
+
+def setup_openai_key():
+    # detect if the key is already set (openai package read it by default)
+    apikey = os.environ.get("OPENAI_API_KEY")
+    if apikey:
+        return True
+    # if no key is set, try to read it from a file
+    key = get_openai_key_path()
+    openai.api_key_path = key
+    return os.path.exists(key)
 
 def clear():
     global messages
