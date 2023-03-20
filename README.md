@@ -3,7 +3,7 @@
 Hey is a powerful chatbot for the command line that uses ChatGPT to generate commands based on natural language input.
 
 ## Features  🚀
-- 💬 Run ChatGPT on the CLI
+- 💬 Run ChatGPT via CLI
 - ❓ Question to command
 - 🎬 Response streaming
 - 🔄 Lets you run multiple commands (always asks before and shows you the command)
